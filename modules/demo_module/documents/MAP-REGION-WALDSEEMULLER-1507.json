@@ -1,0 +1,44 @@
+{
+  "type": "epistemic_document",
+  "id": "MAP-REGION-WALDSEEMULLER-1507",
+  "title": "Universalis Cosmographia",
+  "domain": "cartography",
+  "document_kind": "map",
+  "date_range": {
+    "start_year": 1507,
+    "approximate": false
+  },
+  "creators": [
+    {
+      "name": "Martin Waldseemüller",
+      "role": "cartographer"
+    },
+    {
+      "name": "Matthias Ringmann",
+      "role": "contributor"
+    }
+  ],
+  "region_scope": ["World", "Americas", "Europe"],
+  "technical": {
+    "projection": "modified conic",
+    "medium": "woodcut print",
+    "scale": "approximately 1:19,000,000"
+  },
+  "provenance": {
+    "source_type": "archive",
+    "source_reference": "Library of Congress, Waldseemüller Map"
+  },
+  "claims_and_limits": {
+    "commonly_stated_claims": [
+      "First map to use the name 'America'",
+      "Dedicated to Amerigo Vespucci"
+    ],
+    "known_limits": [
+      "Inaccurate Pacific Ocean dimensions",
+      "Speculative coastline of Asia"
+    ]
+  },
+  "tags": ["early_print", "america", "discovery", "renaissance"],
+  "language": "Latin",
+  "created_at": "2026-03-03"
+}

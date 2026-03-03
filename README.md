@@ -1,220 +1,127 @@
-# Menschheitsgedächtniskarte
+# MWDR Showcase
 
-## Ein strukturelles Forschungsprojekt zur kollektiven Erinnerung der Menschheit
+**Modular Research Data Repository Showcase**
 
-Die **Menschheitsgedächtniskarte** ist ein interdisziplinäres, modular aufgebautes Forschungs- und Strukturprojekt.  
-Ziel ist es, wiederkehrende Muster menschlicher Erfahrung, Erinnerung, Ordnung und Sinnstiftung systematisch zu erfassen, zu vergleichen und dokumentierbar zu machen – über Zeiträume, Kulturen und Kontexte hinweg.
+A technical demonstration of modular research data structures, JSON validation patterns, and schema-based documentation systems.
 
-Im Fokus stehen dabei **keine Bewertungen**, sondern **Strukturen**, **Übergänge**, **Bruchlinien** und **Resonanzen**.
+## Overview
 
----
+This showcase demonstrates a systematic approach to managing structured research data with:
 
-## Projektidee
+- **Schema-based validation**: JSON documents validated against typed schemas
+- **Modular architecture**: Self-contained modules with clear interfaces
+- **CI/CD integration**: Automated validation on every commit
+- **Documentation patterns**: Clear separation of structure, interpretation, and provenance
 
-Viele gesellschaftliche Phänomene erscheinen isoliert, zufällig oder rein zeitgebunden.  
-Dieses Projekt geht von der Annahme aus, dass sich bestimmte Muster immer wieder zeigen:
+## Project Structure
 
-- Verlust von Orientierung
-- Übergangsphasen und Initiationen
-- Macht- und Ohnmachtserfahrungen
-- Rituale, Mythen und kollektive Narrative
-- familiäre und soziale Prägungen
+```
+MWDR-Showcase/
+├── .github/workflows/     # CI/CD pipeline for validation
+├── modules/demo_module/   # Demonstration module with example documents
+│   ├── index.json         # Module metadata
+│   └── documents/         # Example epistemic documents
+├── shared/schemas/        # JSON schema definitions
+├── src/validate/          # Validation scripts and routing config
+├── REPRO_STEPS/           # Reproducible use case instructions
+├── project_overview.json  # Project metadata and structure
+└── README.md, QUICKSTART.md, DATA_POLICY.md, CITATION.md
+```
 
-Die Menschheitsgedächtniskarte versucht, diese Muster **sichtbar, vergleichbar und erforschbar** zu machen.
+## Quick Start
 
----
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Projektstruktur
+2. **Run validation locally:**
+   ```bash
+   python3 src/validate/validate_json.py --path .
+   ```
 
-Das Repository ist modular aufgebaut:
+3. **Expected output:**
+   ```
+   Validation Summary
+   ==================
+   total_files_scanned: 5
+   parsed_ok: 5
+   syntax_errors: 0
+   schema_valid: 5
+   schema_invalid: 0
+   Result: PASS
+   ```
 
-### 🧠 Zeitgeist-Module (`zeitgeist_module`)
-Zeitgenössische Muster und Phänomene, z. B.:
-- Memory Loss
-- Order & Powerlessness
-- Ritual Relief
-- Transition & Initiation
-- Mythos Administration
+## Key Features
 
-Diese Module dienen als analytische Raster für aktuelle Fallbeispiele.
+### Schema-Based Validation
 
-### 👨‍👩‍👧‍👦 Familienmodul (`family_module`)
-Untersuchung der Rolle von Familie als:
-- anthropologische Konstante
-- Stabilitätsfaktor
-- Bruchlinie
-- Initiationsraum
+All JSON documents are validated against schemas defined in `shared/schemas/`. The validation system uses:
 
-Mit historischem (z. B. neolithischem) und modernem Kontext.
+- **Schema routing**: File patterns mapped to specific schemas
+- **Strict typing**: Required fields, value constraints, and patterns
+- **Automated CI**: GitHub Actions workflow validates every push
 
-### 📚 Wissensschichten (`knowledge`)
-Strukturierte Ebenen für:
-- Orte
-- kulturelle Kontexte
-- semantische Schichten
-- Schema-Definitionen
+### Demo Module
 
----
+The `modules/demo_module/` directory contains example documents demonstrating:
 
-## Zeitgenössische Fallbeispiele
+- Epistemic documents (maps, surveys, datasets)
+- Metadata provenance tracking
+- Temporal and geographic scoping
+- Document relationships and links
 
-Ein zentrales Element sind **zeitgenössische Fallbeispiele** (Contemporary Cases), die:
-- beobachtend statt wertend sind
-- unterschiedliche Perspektiven offenhalten
-- explizit Raum für Unsicherheit lassen
+### Documentation
 
-Diese Fallbeispiele können perspektivisch **international** ergänzt werden.
+- **[README.md](README.md)**: Project overview and structure
+- **[QUICKSTART.md](QUICKSTART.md)**: Get running in <10 minutes
+- **[DATA_POLICY.md](DATA_POLICY.md)**: Evidence status and naming conventions
+- **[CITATION.md](CITATION.md)**: Attribution guidelines
+- **[REPRO_STEPS/](REPRO_STEPS/)**: Step-by-step use cases
 
----
+## Use Cases
 
-## Mitwirkung & Offenheit
+1. **UC-01**: Validate JSON structure and schema compliance
+2. **UC-02**: Add a new document to the demo module
+3. **UC-03**: Create a new module with custom schema
 
-Dieses Projekt ist bewusst so angelegt, dass es:
-- später kollaborativ erweiterbar ist
-- sowohl menschlichen Input als auch technische Auswertung zulässt
-- kulturelle Perspektiven nicht vereinheitlicht
+See [REPRO_STEPS/](REPRO_STEPS/) for detailed instructions.
 
-Die Menschheitsgedächtniskarte versteht sich als **offenes Forschungsgerüst**, nicht als abgeschlossenes Weltbild.
+## Technical Details
 
----
+### Validation System
 
-## Status
+The validation system (`src/validate/validate_json.py`) supports:
 
-🟢 Strukturphase  
-🟡 Inhalte im Aufbau  
-🔵 Erweiterung & internationale Perspektiven geplant
+- **Schema routing**: Pattern-based schema selection
+- **JSON Schema compliance**: Full JSON Schema validation
+- **Detailed reporting**: Syntax errors, schema validation, missing schemas
+- **Fallback validation**: Basic validation without jsonschema library
 
----
-
-## Technische Struktur
-
-- `data/` - **NEU**: Neue Datenstruktur mit analytischen Modulen
-  - `data/modules/build_on_old/` - Analytische Lenses und Konzepte für Legacy-Integration
-  - `data/human_cartography/` - Overlay/Reader Model für individuelle Perspektiven
-- `src/` - **NEU**: Standard-Tooling und Validierung (Legacy-Adapter enthalten)
-  - `src/validate/` - JSON-Validierung mit Legacy-Support
-  - `src/tools/` - Hilfsscripte (add_individual, link_nodes)
-- `architecture/` - Architektur- und Designprinzipien (Meta-Rahmen für Interface-Entscheidungen)
-- `interface/` - UI-View-Spezifikationen (MapView, GraphView, ResonancePanel)
-- `modules/` - Enthält alle thematischen Module (Legacy)
-- `knowledge/` - Wissens-Schema und Daten (epistemische Layer, Resonanz-Layer, Nodes)
-- `shared/` - Gemeinsame Ressourcen (Schemas, Vokabulare, Querverweise)
-- `tooling/` - **LEGACY**: Wird schrittweise durch `src/` abgelöst (siehe tooling/LEGACY.md)
-
-## Architektur-Prinzip
-
-Das Projekt basiert auf der **Anthropologischen Erkenntnisarchitektur** (DP-001):
-
-- **Körper-Ebene** (MapView): Räumliche Verkörperung von Wissen
-- **Geist-Ebene** (GraphView): Strukturelle Vernetzung von Wissen
-- **Seele-Ebene** (ResonancePanel): Sinnliche Resonanz und individuelle Sinnbildung
-
-Siehe `architecture/DP-001-anthropologische-erkenntnisarchitektur.json` für Details.
-
-## Prinzipien
-
-- Keine Business-Logik
-- Keine Datenvalidierung oder -normalisierung
-- Reine Datensammlung in JSON-Form
-- Modular und erweiterbar
-- Trennung von Erkenntnisarchitektur und Wissensschema
-
-## Verwendung
-
-Fügen Sie neue JSON-Dateien in die entsprechenden Module ein. Diese können von anderen Modulen (Analyse, Visualisierung, KI-Agenten) gelesen werden.
-
-## Licensing
-
-Dieses Projekt verwendet eine **Dual-Lizenz**:
-
-- **MIT License** für Code und Software-Komponenten (.json-Dateien, Schemas, UI-Spezifikationen)
-- **Creative Commons Attribution 4.0 International (CC BY 4.0)** für Dokumentation und Inhalt (.md-Dateien, Wissensmodule, historische/mythologische Inhalte)
-
-### Lizenzdetails
-
-- **Code-Bereich**: Freie Nutzung, Modifikation und Distribution unter MIT-Lizenzbedingungen
-- **Content-Bereich**: Freies Teilen und Anpassen unter Namensnennung (Attribution)
-- **Attribution**: Bei Nutzung von Content bitte "Menschheitsgedächtniskarte by Emanuel" mit Projekt-Link angeben
-
-Vollständige Lizenzdetails siehe [LICENSE](LICENSE) Datei.
-
-### Design & Architektur
-
-Detaillierte Design-Prinzipien und Architektur-Dokumentation finden Sie im `/architecture/` Verzeichnis:
-- Anthropologische Erkenntnisarchitektur (Körper-Geist-Seele Modell)
-- UI-View-Spezifikationen für Map-, Graph- und Resonance-Views
-
-### Neue Architektur-Dokumente
-
-Architektur- und Interface-Dokumente folgen dem Muster:
-- Designprinzipien: `architecture/DP-XXX-name.json`
-- UI-Spezifikationen: `interface/views/XXX_view_spec.json`
-
----
-
-# Humanity Memory Map
-
-## A structural research project on collective human memory
-
-The **Humanity Memory Map** is a modular, interdisciplinary research project.  
-Its purpose is to identify, structure, and compare recurring patterns of human experience across time, cultures, and societal contexts.
-
-The focus lies not on judgment or ideology, but on:
-- structures
-- transitions
-- ruptures
-- resonance patterns
-
----
-
-## Concept
-
-Many societal phenomena appear isolated or purely contemporary.  
-This project is based on assumption that certain human patterns recur:
-
-- loss of orientation
-- initiation and transition phases
-- power and powerlessness
-- ritual and myth
-- familial and social imprinting
-
-The Humanity Memory Map aims to make these patterns **visible, comparable, and researchable**.
-
----
-
-## Structure
-
-### 🧠 Zeitgeist Modules
-Analytical frameworks for contemporary phenomena.
-
-### 👨‍👩‍👧‍👦 Family Module
-Family as an anthropological constant, stabilizer, and fracture line.
-
-### 📚 Knowledge Layers
-Structured semantic and contextual layers.
-
----
-
-## Contemporary Case Studies
-
-Observed, non-judgmental case studies form a central component.  
-They are designed to be expandable across cultures and regions.
-
----
-
-## Collaboration
-
-The project is designed to remain:
-- open
-- extensible
-- culturally sensitive
-
-It is intended as a **research framework**, not a closed narrative.
-
----
-
-## Status
-
-🟢 Structural phase  
-🟡 Content development ongoing  
-🔵 International expansion planned
+### Schema Routing Configuration
+
+File patterns are mapped to schemas in `src/validate/schema_routing.json`:
+
+```json
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "glob": "modules/demo_module/documents/*.json",
+      "schema": "shared/schemas/epistemic_documents/epistemic_document.schema.json",
+      "comment": "Demo module epistemic documents"
+    }
+  ]
+}
+```
+
+## License
+
+- **Code**: MIT License
+- **Content**: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+## Repository
+
+- **URL**: https://github.com/[USERNAME]/MWDR-Showcase (placeholder)
+- **Version**: 0.2.0
+- **Last Updated**: 2026-03-03

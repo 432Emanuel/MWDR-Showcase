@@ -1,0 +1,9 @@
+{
+  "module_id": "DEMO-001",
+  "name": "Demo Module",
+  "description": "Demonstration module showcasing epistemic document structures and validation patterns",
+  "version": "0.1.0",
+  "status": "active",
+  "documents_directory": "documents/",
+  "schema_ref": "shared/schemas/epistemic_documents/epistemic_document.schema.json"
+}

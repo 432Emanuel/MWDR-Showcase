@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "project_name": "MWDR Showcase",
+    "project_name_en": "Modular Research Data Repository Showcase",
+    "description": "A technical demonstration of modular research data structures, JSON validation patterns, and schema-based documentation systems.",
+    "description_en": "Technical showcase demonstrating modular research data infrastructure with JSON validation and schema-based documentation.",
+    "focus": "Data structure, validation, documentation patterns",
+    "focus_en": "Data structure, validation, documentation patterns",
+    "license": {
+      "code": "MIT License",
+      "content": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "attribution": "MWDR Showcase"
+    },
+    "repository": {
+      "url": "https://github.com/[USERNAME]/MWDR-Showcase",
+      "latest_commit": "placeholder"
+    },
+    "last_updated": "2026-03-03",
+    "version": "0.2.0",
+    "language": "en",
+    "ci_cd": {
+      "platform": "GitHub Actions",
+      "workflow_file": ".github/workflows/validate.yml",
+      "status": "active"
+    }
+  },
+  "project_status": {
+    "current_phase": "Technical showcase",
+    "status_indicators": {
+      "structure": "Complete",
+      "validation": "Active",
+      "documentation": "Complete"
+    },
+    "focus_areas": [
+      "Schema-based JSON validation",
+      "Modular data architecture",
+      "Documentation patterns",
+      "CI/CD for data quality"
+    ]
+  },
+  "modules": {
+    "demo_module": {
+      "description": "Demonstration module with epistemic document examples",
+      "index_file": "modules/demo_module/index.json",
+      "status": "active",
+      "schema": "shared/schemas/epistemic_documents/epistemic_document.schema.json"
+    }
+  },
+  "data_structure": {
+    "core_directories": {
+      "shared_schemas": {
+        "description": "Schema definitions for data validation",
+        "path": "shared/schemas/"
+      },
+      "src_validate": {
+        "description": "JSON validation scripts with schema routing",
+        "path": "src/validate/"
+      },
+      "github_workflows": {
+        "description": "CI/CD pipeline for automated validation",
+        "path": ".github/workflows/"
+      },
+      "modules_demo": {
+        "description": "Demo module with example documents",
+        "path": "modules/demo_module/"
+      }
+    }
+  },
+  "tooling": {
+    "validation": {
+      "script": "src/validate/validate_json.py",
+      "routing_config": "src/validate/schema_routing.json",
+      "ci_workflow": ".github/workflows/validate.yml"
+    }
+  }
+}

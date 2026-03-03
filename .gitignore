@@ -77,3 +77,10 @@ Desktop.ini
 *.bak
 *.backup
 *~
+
+# Archive directory (not committed)
+_ARCHIVE_NOT_COMMITTED/
+
+# Validation reports
+validate_report.json
+validate_demo.json

@@ -1,0 +1,40 @@
+{
+  "type": "epistemic_document",
+  "id": "MAP-WORLD-PTOLEMY-0150",
+  "title": "Geographia",
+  "domain": "cartography",
+  "document_kind": "map",
+  "date_range": {
+    "start_year": 150,
+    "approximate": true
+  },
+  "creators": [
+    {
+      "name": "Claudius Ptolemaeus",
+      "role": "cartographer"
+    }
+  ],
+  "region_scope": ["Mediterranean", "Europe", "North Africa", "Asia"],
+  "technical": {
+    "projection": "conic",
+    "medium": "manuscript",
+    "measurement_basis": ["astronomical observations", "itineraries"]
+  },
+  "provenance": {
+    "source_type": "book",
+    "source_reference": "Ptolemy, Geographia (2nd century CE)"
+  },
+  "claims_and_limits": {
+    "commonly_stated_claims": [
+      "First systematic use of coordinates",
+      "Latitude and longitude system for mapped locations"
+    ],
+    "known_limits": [
+      "Limited to Roman world knowledge",
+      "Distortion in peripheral regions"
+    ]
+  },
+  "tags": ["ancient", "coordinates", "roman", "greek"],
+  "language": "Greek",
+  "created_at": "2026-03-03"
+}

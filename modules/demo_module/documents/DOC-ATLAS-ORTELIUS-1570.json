@@ -1,0 +1,47 @@
+{
+  "type": "epistemic_document",
+  "id": "DOC-ATLAS-ORTELIUS-1570",
+  "title": "Theatrum Orbis Terrarum",
+  "domain": "cartography",
+  "document_kind": "atlas",
+  "date_range": {
+    "start_year": 1570,
+    "approximate": false
+  },
+  "creators": [
+    {
+      "name": "Abraham Ortelius",
+      "role": "cartographer",
+      "affiliation": "Antwerp"
+    }
+  ],
+  "region_scope": ["World", "Europe", "Americas", "Asia", "Africa"],
+  "technical": {
+    "medium": "copperplate engraving",
+    "dimensions": "Approximately 40 x 30 cm per map"
+  },
+  "provenance": {
+    "source_type": "book",
+    "source_reference": "Ortelius, A. (1570). Theatrum Orbis Terrarum"
+  },
+  "claims_and_limits": {
+    "commonly_stated_claims": [
+      "First modern atlas",
+      "Unified collection of maps with source attribution"
+    ],
+    "known_limits": [
+      "Inconsistent map scales",
+      "Varying source quality"
+    ]
+  },
+  "links": [
+    {
+      "kind": "related_document",
+      "target_id": "MAP-REGION-WALDSEEMULLER-1507",
+      "note": "Preceding world map tradition"
+    }
+  ],
+  "tags": ["atlas", "renaissance", "antwerp", "first"],
+  "language": "Latin",
+  "created_at": "2026-03-03"
+}

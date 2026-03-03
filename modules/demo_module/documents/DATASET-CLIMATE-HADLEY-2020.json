@@ -1,0 +1,45 @@
+{
+  "type": "epistemic_document",
+  "id": "DATASET-CLIMATE-HADLEY-2020",
+  "title": "HadCRUT5 Global Temperature Dataset",
+  "domain": "other",
+  "document_kind": "dataset",
+  "date_range": {
+    "start_year": 1850,
+    "end_year": 2020,
+    "approximate": false
+  },
+  "creators": [
+    {
+      "name": "Met Office Hadley Centre",
+      "affiliation": "UK Met Office"
+    },
+    {
+      "name": "Climatic Research Unit",
+      "affiliation": "University of East Anglia"
+    }
+  ],
+  "region_scope": ["Global"],
+  "technical": {
+    "medium": "digital",
+    "measurement_basis": ["land station observations", "sea surface temperature data"]
+  },
+  "provenance": {
+    "source_type": "website",
+    "source_reference": "Met Office Hadley Centre (2020). HadCRUT5"
+  },
+  "claims_and_limits": {
+    "commonly_stated_claims": [
+      "Global temperature anomaly record since 1850",
+      "Comprehensive coverage with uncertainty estimates"
+    ],
+    "known_limits": [
+      "Sparse data coverage in polar regions",
+      "Urban heat island effects require adjustment"
+    ]
+  },
+  "tags": ["climate", "temperature", "observational", "time_series"],
+  "language": "English",
+  "institutional_context": "Met Office Hadley Centre",
+  "created_at": "2026-03-03"
+}

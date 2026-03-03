@@ -1,0 +1,42 @@
+{
+  "type": "epistemic_document",
+  "id": "DATA-SURVEY-GREENWICH-1851",
+  "title": "Greenwich Observatory Survey 1851",
+  "domain": "geodesy",
+  "document_kind": "survey_campaign",
+  "date_range": {
+    "start_year": 1851,
+    "end_year": 1855,
+    "approximate": false
+  },
+  "creators": [
+    {
+      "name": "George Biddell Airy",
+      "role": "astronomer",
+      "affiliation": "Royal Observatory, Greenwich"
+    }
+  ],
+  "region_scope": ["United Kingdom", "Greenwich"],
+  "technical": {
+    "measurement_basis": ["meridian observations", "telegraph signals"],
+    "medium": "published tables"
+  },
+  "provenance": {
+    "source_type": "paper",
+    "source_reference": "Airy, G.B. (1858). Account of the Transit Circle"
+  },
+  "claims_and_limits": {
+    "commonly_stated_claims": [
+      "Established Prime Meridian at Greenwich",
+      "Precision measurement of astronomical positions"
+    ],
+    "known_limits": [
+      "Limited to local geodetic network",
+      "Atmospheric refraction corrections required"
+    ]
+  },
+  "tags": ["meridian", "astronomy", "geodesy", "standards"],
+  "language": "English",
+  "institutional_context": "Royal Observatory, Greenwich",
+  "created_at": "2026-03-03"
+}

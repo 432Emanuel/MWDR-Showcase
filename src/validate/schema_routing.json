@@ -4,22 +4,27 @@
     {
       "glob": "zeitgeist_module/ZG-CB-contemporary-cases/cases/**/*.json",
       "schema": "zeitgeist_module/ZG-CB-contemporary-cases/schema/ZG-CB_case.schema.json",
-      "comment": "Contemporary breach cases (including nested country folders)"
+      "comment": "Contemporary breach cases (archived)"
     },
     {
       "glob": "modules/narrative_ecology/analysis/*.json",
       "schema": "modules/narrative_ecology/schema/narrative_collection.schema.json",
-      "comment": "Narrative ecology analysis collection files"
+      "comment": "Narrative ecology analysis collection files (archived)"
     },
     {
       "glob": "modules/narrative_ecology/experiential/*.json",
       "schema": "modules/narrative_ecology/schema/narrative_collection.schema.json",
-      "comment": "Narrative ecology experiential collection files"
+      "comment": "Narrative ecology experiential collection files (archived)"
     },
     {
       "glob": "data/crisis_analysis/pre_disruptive_tension_periods/**/blocks/*.json",
       "schema": "data/crisis_analysis/pre_disruptive_tension_periods/schema_definition.json",
-      "comment": "Crisis analysis tension period blocks"
+      "comment": "Crisis analysis tension period blocks (archived)"
+    },
+    {
+      "glob": "modules/demo_module/documents/*.json",
+      "schema": "shared/schemas/epistemic_documents/epistemic_document.schema.json",
+      "comment": "Demo module epistemic documents"
     }
   ]
 }
