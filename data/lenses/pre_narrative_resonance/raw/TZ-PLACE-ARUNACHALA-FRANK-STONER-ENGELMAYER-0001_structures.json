@@ -1,0 +1,217 @@
+{
+  "id": "TZ-PLACE-ARUNACHALA-FRANK-STONER-ENGELMAYER-0001-STRUCTURES",
+  "source_id": "TZ-PLACE-ARUNACHALA-FRANK-STONER-ENGELMAYER-0001",
+  "marker_candidates": [
+    {
+      "marker_id": "MARK-PLACE-AS-GURU-TRANSFER-001",
+      "type": "authority",
+      "definition": "Autorität wird von Personen/Institutionen auf einen Ort übertragen (place-as-guru).",
+      "evidence": [
+        {
+          "excerpt": "mein Guru ist aber auch kein Mensch, mein Guru ist ein Berg",
+          "event_ref": "RE-0002"
+        }
+      ],
+      "risk_notes": "Achtung: ontologischer Drift, wenn 'Ort als Guru' als wörtlich-bewusste Entität behandelt wird; MGK sollte es als Sprach-/Sinnstruktur (Authority-Transfer) modellieren, nicht als Fakt über den Berg.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: authority_transfer_to_place)"
+    },
+    {
+      "marker_id": "MARK-PLACE-AS-ACTIVE-AGENT-LESSON-001",
+      "type": "projection",
+      "definition": "Der Ort wird entitisiert: er erscheint als handelnder Akteur, der 'Lektionen erteilt'.",
+      "evidence": [
+        {
+          "excerpt": "das war so die erste riesengroße Lektion, die mir der Berg so erteilt hat",
+          "event_ref": "RE-0008"
+        }
+      ],
+      "risk_notes": "Achtung: ontologischer Drift (Agency-Zuschreibung an Landschaft); in der Auswertung strikt als Projektion/Deutungsrahmen des Sprechers führen, nicht als Kausalbehauptung.",
+      "mgk_usage": "data/lenses/meta_patterns/ oder data/lenses/pre_narrative_resonance/ (Pattern: entitization_of_place)"
+    },
+    {
+      "marker_id": "MARK-PLACE-TEST-INVOCATION-001",
+      "type": "projection",
+      "definition": "Der Ort wird angesprochen wie ein antwortfähiger Dialogpartner (Test/Anrufung als Schwellenhandlung).",
+      "evidence": [
+        {
+          "excerpt": "okay, wenn da jetzt echt was ist, dann zeig es mir, ich möchte es wissen, ich bin bereit",
+          "event_ref": "RE-0003"
+        }
+      ],
+      "risk_notes": "Achtung: ontologischer Drift, wenn die Sprechhandlung als Beweis für 'Antwortfähigkeit' des Ortes reifiziert wird; MGK sollte es als Ritual-/Kommunikationsform (speech act) codieren.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Modul: threshold_speech_acts)"
+    },
+    {
+      "marker_id": "MARK-RITUAL-DISORIENTATION-ENTRY-001",
+      "type": "identity",
+      "definition": "Ritual-Entry erzeugt Desorientierung und Identitätsfragen (fehlende Codes → Suche nach 'Sinn/Lehre').",
+      "evidence": [
+        {
+          "excerpt": "ich habe nichts kapiert, ich habe nichts gecheckt",
+          "event_ref": "RE-0004"
+        }
+      ],
+      "risk_notes": "Kann in nachträgliche Sinn-Glättung kippen (retrospektive Teleologie: 'musste so sein'); deshalb als Prozessmarker (Entry-Shock) führen, nicht als Beleg für verborgenes Design.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: ritual_entry_disorientation)"
+    },
+    {
+      "marker_id": "MARK-SOCIAL-DEVALUATION-INITIATION-HIT-001",
+      "type": "identity",
+      "definition": "Initiationsdruck über Fremdurteil: 'Talent'-Zuschreibung/Abwertung formt Selbstbild und Abhängigkeit von Autoritäten.",
+      "evidence": [
+        {
+          "excerpt": "du hast da kein Talent dafür",
+          "event_ref": "RE-0005"
+        }
+      ],
+      "risk_notes": "Risiko: Authority-Capture (Sinn und Wert werden extern zugewiesen); MGK sollte die Dynamik als Struktur (Bewertungsschock) abbilden, nicht als valide Diagnostik über 'Talent'.",
+      "mgk_usage": "modules/ (Kandidat: authority_capture_vectors) oder data/lenses/meta_patterns/"
+    },
+    {
+      "marker_id": "MARK-AFFECTIVE-OPENING-TEARS-001",
+      "type": "body",
+      "definition": "Affektiver Durchbruch (Tränen/Rührung) markiert Resonanz-Öffnung nach Stress/Kontrast-Erfahrung.",
+      "evidence": [
+        {
+          "excerpt": "ich habe wirklich Tränen in den Augen gehabt, vor lauter Rührung, ob des bloßen Daseins",
+          "event_ref": "RE-0006"
+        }
+      ],
+      "risk_notes": "Ontologischer Drift-Risiko: starke Emotion wird leicht als 'Beweis' für metaphysische Wahrheit gelesen; MGK sollte es als phänomenologischen Marker (Affect spike) führen.",
+      "mgk_usage": "data/human_cartography/overlays/resonance_strands/ (Strand: affective_opening)"
+    },
+    {
+      "marker_id": "MARK-MASS-RITUAL-MERGE-PRADAKSHINA-001",
+      "type": "spatial",
+      "definition": "Kollektive Umrundung (Bewegungsritual) erzeugt Selbstentgrenzung über Dichte, Rhythmus und geteilte Richtung.",
+      "evidence": [
+        {
+          "excerpt": "mit jedem Schritt verschmelzt du irgendwo mit der Masse der Menschen.",
+          "event_ref": "RE-0011"
+        }
+      ],
+      "risk_notes": "Risiko: Normativierung ('so muss es sein') oder Verwechslung von Gruppen-Synchronisierung mit 'höherer Wahrheit'; deshalb als Mechanik (Synchronisierung) modellieren.",
+      "mgk_usage": "data/lenses/meta_patterns/ (Pattern: mass_sync_via_circumambulation)"
+    },
+    {
+      "marker_id": "MARK-VISUAL-RITUAL-AMPLIFIER-PEAK-FIRE-001",
+      "type": "spatial",
+      "definition": "Ritualisiertes Lichtsignal am Gipfel wirkt als kollektiver Synchronisations- und Resonanzverstärker.",
+      "evidence": [
+        {
+          "excerpt": "dass der Berg sozusagen zur Kerze wird.",
+          "event_ref": "RE-0012"
+        },
+        {
+          "excerpt": "wenn dann dieses Licht angeht, wenn dieses Feuer und Zimmel wird, da kommt ein Energieschub.",
+          "event_ref": "RE-0013"
+        }
+      ],
+      "risk_notes": "Nicht als objektive 'Energie-Abstrahlung' reifizieren; im MGK-Kontext als Zusammenspiel aus Symbol, Erwartung, Massendynamik und Wahrnehmung führen.",
+      "mgk_usage": "data/lenses/meta_patterns/ (Pattern: ritual_visual_amplifier)"
+    },
+    {
+      "marker_id": "MARK-MYTHIC-AXIS-LIGHT-PILLAR-ANCHOR-001",
+      "type": "projection",
+      "definition": "Mythische Kompression (Lichtsäule) liefert eine Axis-/Unendlichkeit-Metapher, die den Ort semantisch stabilisiert.",
+      "evidence": [
+        {
+          "excerpt": "Eine Lichtsäule ohne Anfang und ohne Ende.",
+          "event_ref": "RE-0010"
+        }
+      ],
+      "risk_notes": "Achtung: ontologischer Drift, wenn das Bild als physikalische Beschreibung gelesen wird; MGK sollte es als Symbol-/Narrativ-Anker behandeln (story_context).",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ oder data/lenses/meta_patterns/ (Pattern: mythic_axis_anchor)"
+    },
+    {
+      "marker_id": "MARK-BODY-FEEDBACK-HUMILITY-LOOP-001",
+      "type": "body",
+      "definition": "Somatisches Ereignis → symbolische Deutung (Demut) → korrigierte Praxis (Rückkehr ohne Performance).",
+      "evidence": [
+        {
+          "excerpt": "Plötzlich fliegt mir ein Insekt unter meinen Wickelrock und sticht mich ins Knie.",
+          "event_ref": "RE-0018"
+        },
+        {
+          "excerpt": "Knie ist auch ein Symbol für Demut.",
+          "event_ref": "RE-0019"
+        },
+        {
+          "excerpt": "Ohne Gitarre. Ich bin da ganz bescheiden hingegangen.",
+          "event_ref": "RE-0020"
+        },
+        {
+          "excerpt": "Du konntest zuschauen, wie das weggeht.",
+          "event_ref": "RE-0021"
+        }
+      ],
+      "risk_notes": "Achtung: ontologischer Drift, wenn das Ereignis als intendierte 'Strafe/Lehre' von Ort/Spirits interpretiert und verallgemeinert wird; MGK protokolliert hier Deutung + Verhaltensänderung, nicht Kausalität.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: somatic_feedback_interpretation)"
+    },
+    {
+      "marker_id": "MARK-GURU-PATTERN-WARNING-RESISTANCE-001",
+      "type": "authority",
+      "definition": "Projection-Resistance: Der Sprecher benennt Guru-Muster als Risiko trotz starker Bindung an den Ort.",
+      "evidence": [
+        {
+          "excerpt": "in diese typischen Guru-Muster reingefallen.",
+          "event_ref": "RE-0016"
+        }
+      ],
+      "risk_notes": "Kann selbst wieder zur neuen Autorität werden ('ich sehe durch'); MGK sollte es als Selbstschutzmarker (reflexive Distanz) führen, nicht als moralisches Urteil.",
+      "mgk_usage": "modules/ (Kandidat: projection_resistance_flags) oder data/lenses/meta_patterns/"
+    },
+    {
+      "marker_id": "MARK-QUESTION-BURDEN-RELIEF-001",
+      "type": "identity",
+      "definition": "Last-Shift: von Antwortzwang zu tragbarer Ungewissheit (Sinnlast wird reduziert, nicht unbedingt 'Wissen' erhöht).",
+      "evidence": [
+        {
+          "excerpt": "Was mir der Berg genommen hat, ist die Last der Fragen.",
+          "event_ref": "RE-0023"
+        }
+      ],
+      "risk_notes": "Risiko: nachträgliche Absolutsetzung ('Ort hat es gelöst'); MGK sollte zwischen Entlastungserleben (raw) und Ursache-Deutung (interpretation) trennen.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: question_burden_relief)"
+    },
+    {
+      "marker_id": "MARK-HEART-MIRROR-INTERNALIZATION-001",
+      "type": "identity",
+      "definition": "Internalisierung: Der Ort fungiert als Spiegelmetapher für inneren Zustand und wird ins Selbstmodell integriert.",
+      "evidence": [
+        {
+          "excerpt": "Dieser Kraftort ist ein Spiegel für unser Herz.",
+          "event_ref": "RE-0024"
+        }
+      ],
+      "risk_notes": "Kann in Ontologie kippen ('Herzzentrum der Welt' als Fakt); MGK sollte es als metaphorisches Selbstmodell (identity anchoring) dokumentieren.",
+      "mgk_usage": "data/human_cartography/overlays/resonance_strands/ (Strand: place_as_mirror_internalization)"
+    },
+    {
+      "marker_id": "MARK-SPIRITS-PRESENCE-ASSERTION-001",
+      "type": "projection",
+      "definition": "Setzung nicht verifizierbarer Akteure ('Spirits') als situativer Rahmen für Handlungen und Deutungen.",
+      "evidence": [
+        {
+          "excerpt": "Aber die Spirits waren da.",
+          "event_ref": "RE-0017"
+        }
+      ],
+      "risk_notes": "Achtung: ontologischer Drift; MGK darf 'Spirits' nicht als Weltfakt übernehmen, sondern nur als Sprecher-Frame/Erlebnisbericht (interpretation/projection) erfassen.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Flag: non_verifiable_entities_present)"
+    },
+    {
+      "marker_id": "MARK-HYMN-HEALING-CLAIM-NORMATIVE-001",
+      "type": "projection",
+      "definition": "Normative Heilungsbehauptung wird über Autoritätstext (Hymne) stabilisiert und an den Ort gebunden.",
+      "evidence": [
+        {
+          "excerpt": "Oh Arunachala, du heilst die Menschen von dem Ego, die im Herzen zu dir meditieren.",
+          "event_ref": "RE-0025"
+        }
+      ],
+      "risk_notes": "Achtung: ontologischer Drift und Therapieversprechen; MGK sollte solche Claims nur als Zitat/Überlieferungsrahmen (authority_text) speichern, ohne Wirksamkeitsannahme.",
+      "mgk_usage": "data/lenses/meta_patterns/ oder data/lenses/pre_narrative_resonance/ (Pattern: authority_text_healing_claim)"
+    }
+  ]
+}

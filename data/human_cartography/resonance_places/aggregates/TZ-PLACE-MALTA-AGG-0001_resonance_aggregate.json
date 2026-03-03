@@ -1,0 +1,132 @@
+{
+  "id": "TZ-PLACE-MALTA-AGG-0001-RESONANCE-AGGREGATE",
+  "created_at": "2026-02-23",
+  "place_focus": {
+    "primary_place": "Megalithic Temples Malta",
+    "place_type": "megalithic_temple_complex",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "source_set": {
+    "count": 16,
+    "tiers": {
+      "A": 3,
+      "B": 10,
+      "C": 1,
+      "D": 2
+    },
+    "notes": "Includes 1 dense Frank transcript (tier B) + research bundle sources."
+  },
+  "dominant_channels": [
+    "cognition",
+    "material",
+    "symbolic",
+    "body",
+    "space",
+    "time"
+  ],
+  "dominant_triggers": [
+    "other",
+    "architectural_form",
+    "historical_context",
+    "ritual_imagination",
+    "material_mass",
+    "historical_depth",
+    "authority_projection",
+    "visual_form",
+    "ritual_context",
+    "silence"
+  ],
+  "marker_candidates": [
+    {
+      "marker_id": "RP-MKR-ACOUSTIC-REVERBERATION-0002",
+      "definition": "Akustische Resonanz/Echo als zentraler Wirkfaktor (Reverberation, Frequenzen, 'wie in einer Glocke').",
+      "evidence_refs": [
+        "SRC-MALTA-0008:RE-0008",
+        "SRC-MALTA-0001:RE-0004",
+        "SRC-MALTA-0001:RE-0008",
+        "SRC-MALTA-0003:RE-0003",
+        "SRC-MALTA-0004:RE-0001"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-DEEP-TIME-AWE-0008",
+      "definition": "Deep-time Awe: Demut/Staunen über Zeit-Tiefe, Alter, Monumentalität.",
+      "evidence_refs": [
+        "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0005",
+        "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0006",
+        "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0008",
+        "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0017",
+        "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0019"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-LIGHT-QUALITY-MYSTIC-0010",
+      "definition": "Lichtqualität als Atmosphärenmarker (mystisches Licht, Gold/Rosa, Kontur-Unschärfe).",
+      "evidence_refs": [
+        "SRC-MALTA-0009:RE-0003",
+        "SRC-MALTA-0003:RE-0003",
+        "SRC-MALTA-0003:RE-0006",
+        "SRC-MALTA-0010:RE-0006"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-PLACE-AS-AGENT-GURU-0001",
+      "definition": "Ort wird als Akteur/Lehrinstanz gerahmt (place-as-guru/agency), inkl. Authority-Transfer.",
+      "evidence_refs": [
+        "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0008",
+        "SRC-MALTA-0008:RE-0001",
+        "SRC-MALTA-0001:RE-0005",
+        "SRC-MALTA-0005:RE-0004"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-WOMB-UNDERWORLD-METAPHOR-0009",
+      "definition": "Womb/Unterwelt-Metapher: Enge, Tiefe, 'Mutterleib', Rückkehr in die Erde.",
+      "evidence_refs": [
+        "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0020",
+        "SRC-MALTA-0001:RE-0001"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-ACCESS-CONTROL-MUSEUMIZATION-0007",
+      "definition": "Access-Control/Museumisierung: Zäune, Regeln, Time-Slots, Schutzdächer, kuratierte Inszenierung.",
+      "evidence_refs": [
+        "SRC-MALTA-0003:RE-0001"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-TIME-DENSITY-THINNING-0005",
+      "definition": "Zeitdichte/Temporal-Thinning: subjektive Zeitverschiebung, 'Ewigkeit', Vorher/Nachher-Zäsur.",
+      "evidence_refs": [
+        "SRC-MALTA-0012:RE-0002"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-VERTICAL-ASCENT-CHOREOGRAPHY-0003",
+      "definition": "Aufstieg/Vertikalität und Weg-Choreographie als somatischer Trigger (Serpentinen, Stufen, Entschleunigung).",
+      "evidence_refs": [
+        "SRC-MALTA-0003:RE-0008"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    }
+  ],
+  "stability_notes": "Dominant channels/triggers computed over all extracted events (research + Frank transcript). Interpretive claims are separated via `raw_vs_claim`.",
+  "museumization_overlays": [
+    {
+      "overlay_id": "MUSEUMIZATION-ACCESS-CONTROL",
+      "description": "Reported/observed curation, rules, barriers or protective infrastructure shaping experience.",
+      "evidence_refs": [
+        "SRC-MALTA-0003:RE-0001"
+      ],
+      "notes": "Confounder: intensity may be amplified by restriction/rarity or reduced by staging."
+    }
+  ]
+}

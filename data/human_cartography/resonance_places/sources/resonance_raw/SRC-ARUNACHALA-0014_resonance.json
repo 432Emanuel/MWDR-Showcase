@@ -1,0 +1,217 @@
+{
+  "id": "SRC-ARUNACHALA-0014-RESONANCE",
+  "source_id": "SRC-ARUNACHALA-0014",
+  "place_focus": {
+    "primary_place": "Arunachala",
+    "place_type": "mountain/sacred_site",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "resonance_events": [
+    {
+      "event_id": "RE-0001",
+      "excerpt": "Jagan said that on Arunachala, your sweat removes bad karma.",
+      "layer": [
+        "R1",
+        "R5"
+      ],
+      "channel": [
+        "body"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0002",
+      "excerpt": "By now I was sweating profusely... the clear day means we are in full sun.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "body"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0003",
+      "excerpt": "Walking sticks are quite good when going up and down the mountain.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "space"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0004",
+      "excerpt": "Beschreibt die physische Herausforderung des Aufstiegs zu den \"Seven Springs\" abseits der Hauptwege.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0005",
+      "excerpt": "Dokumentiert die extreme Hitzeeinwirkung auf der Ostseite des Berges.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "body",
+        "space"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0006",
+      "excerpt": "Verbindet das körperliche Schwitzen mit einer psychologischen Reinigung (Karma-Abbau).",
+      "layer": [
+        "R1",
+        "R5"
+      ],
+      "channel": [
+        "body"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "ritual_context"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0007",
+      "excerpt": "Berichtet über die Notwendigkeit von Führern und Ausrüstung aufgrund des unwegsamen Geländes.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0008",
+      "excerpt": "Thematisiert die visuelle Perspektive auf die Stadt von oben als Teil der Raumwahrnehmung.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0009",
+      "excerpt": "Secrets of Arunachala – Seven Springs",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "title_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0010",
+      "excerpt": "Blog",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "medium_frame; DP-002: treat as reported/subjective unless measured."
+    }
+  ],
+  "aggregate_profile": {
+    "dominant_channels": [
+      "cognition",
+      "body",
+      "space"
+    ],
+    "dominant_triggers": [
+      "other",
+      "ritual_context"
+    ],
+    "stability_notes": "Auto-extracted from bundle: mix of quotes, summaries and (where needed) bundle-level synthesis lines; DP-002 applied."
+  }
+}

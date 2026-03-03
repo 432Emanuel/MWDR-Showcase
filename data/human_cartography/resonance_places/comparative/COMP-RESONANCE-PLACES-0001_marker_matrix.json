@@ -1,0 +1,383 @@
+{
+  "id": "COMP-RESONANCE-PLACES-0001-MARKER-MATRIX",
+  "created_at": "2026-02-23",
+  "places": [
+    "ARUNACHALA",
+    "MALTA",
+    "DELPHI"
+  ],
+  "markers": [
+    {
+      "marker_id": "RP-MKR-PLACE-AS-AGENT-GURU-0001",
+      "definition": "Ort wird als Akteur/Lehrinstanz gerahmt (place-as-guru/agency), inkl. Authority-Transfer.",
+      "places": {
+        "ARUNACHALA": {
+          "present": true,
+          "strength_0_3": 2,
+          "evidence_refs": [
+            "SRC-ARUNACHALA-0004:RE-0006",
+            "TZ-PLACE-ARUNACHALA-FRANK-STONER-ENGELMAYER-0001:RE-0002",
+            "TZ-PLACE-ARUNACHALA-FRANK-STONER-ENGELMAYER-0001:RE-0008",
+            "TZ-PLACE-ARUNACHALA-FRANK-STONER-ENGELMAYER-0001:RE-0016",
+            "TZ-PLACE-ARUNACHALA-FRANK-STONER-ENGELMAYER-0001:RE-0023",
+            "SRC-ARUNACHALA-0017:RE-0008"
+          ]
+        },
+        "MALTA": {
+          "present": true,
+          "strength_0_3": 1,
+          "evidence_refs": [
+            "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0008",
+            "SRC-MALTA-0008:RE-0001",
+            "SRC-MALTA-0001:RE-0005",
+            "SRC-MALTA-0005:RE-0004"
+          ]
+        },
+        "DELPHI": {
+          "present": true,
+          "strength_0_3": 3,
+          "evidence_refs": [
+            "SRC-DELPHI-0011:RE-0002",
+            "SRC-DELPHI-0011:RE-0005",
+            "SRC-DELPHI-0004:RE-0003",
+            "SRC-DELPHI-0004:RE-0010",
+            "SRC-DELPHI-0004:RE-0012",
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0003"
+          ]
+        }
+      }
+    },
+    {
+      "marker_id": "RP-MKR-ACOUSTIC-REVERBERATION-0002",
+      "definition": "Akustische Resonanz/Echo als zentraler Wirkfaktor (Reverberation, Frequenzen, 'wie in einer Glocke').",
+      "places": {
+        "ARUNACHALA": {
+          "present": false,
+          "strength_0_3": 0,
+          "evidence_refs": []
+        },
+        "MALTA": {
+          "present": true,
+          "strength_0_3": 3,
+          "evidence_refs": [
+            "SRC-MALTA-0008:RE-0008",
+            "SRC-MALTA-0001:RE-0004",
+            "SRC-MALTA-0001:RE-0008",
+            "SRC-MALTA-0003:RE-0003",
+            "SRC-MALTA-0004:RE-0001",
+            "SRC-MALTA-0004:RE-0003"
+          ]
+        },
+        "DELPHI": {
+          "present": false,
+          "strength_0_3": 0,
+          "evidence_refs": []
+        }
+      }
+    },
+    {
+      "marker_id": "RP-MKR-VERTICAL-ASCENT-CHOREOGRAPHY-0003",
+      "definition": "Aufstieg/Vertikalität und Weg-Choreographie als somatischer Trigger (Serpentinen, Stufen, Entschleunigung).",
+      "places": {
+        "ARUNACHALA": {
+          "present": true,
+          "strength_0_3": 1,
+          "evidence_refs": [
+            "SRC-ARUNACHALA-0014:RE-0004"
+          ]
+        },
+        "MALTA": {
+          "present": true,
+          "strength_0_3": 1,
+          "evidence_refs": [
+            "SRC-MALTA-0003:RE-0008"
+          ]
+        },
+        "DELPHI": {
+          "present": true,
+          "strength_0_3": 3,
+          "evidence_refs": [
+            "SRC-DELPHI-0011:RE-0001",
+            "SRC-DELPHI-0005:RE-0007",
+            "SRC-DELPHI-0010:RE-0001",
+            "SRC-DELPHI-0010:RE-0002",
+            "SRC-DELPHI-0010:RE-0004",
+            "SRC-DELPHI-0008:RE-0002"
+          ]
+        }
+      }
+    },
+    {
+      "marker_id": "RP-MKR-CROWD-RITUAL-MASS-0004",
+      "definition": "Ritual-Masse/Crowd-Synchronisation als Verstärker (Pilgerdichte, Massenbewegung, kollektiv).",
+      "places": {
+        "ARUNACHALA": {
+          "present": true,
+          "strength_0_3": 1,
+          "evidence_refs": [
+            "SRC-ARUNACHALA-0011:RE-0009"
+          ]
+        },
+        "MALTA": {
+          "present": false,
+          "strength_0_3": 0,
+          "evidence_refs": []
+        },
+        "DELPHI": {
+          "present": false,
+          "strength_0_3": 0,
+          "evidence_refs": []
+        }
+      }
+    },
+    {
+      "marker_id": "RP-MKR-TIME-DENSITY-THINNING-0005",
+      "definition": "Zeitdichte/Temporal-Thinning: subjektive Zeitverschiebung, 'Ewigkeit', Vorher/Nachher-Zäsur.",
+      "places": {
+        "ARUNACHALA": {
+          "present": true,
+          "strength_0_3": 2,
+          "evidence_refs": [
+            "SRC-ARUNACHALA-0004:RE-0007",
+            "SRC-ARUNACHALA-0011:RE-0001",
+            "SRC-ARUNACHALA-0017:RE-0003",
+            "SRC-ARUNACHALA-0018:RE-0002",
+            "SRC-ARUNACHALA-0013:RE-0001"
+          ]
+        },
+        "MALTA": {
+          "present": true,
+          "strength_0_3": 1,
+          "evidence_refs": [
+            "SRC-MALTA-0012:RE-0002"
+          ]
+        },
+        "DELPHI": {
+          "present": true,
+          "strength_0_3": 1,
+          "evidence_refs": [
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0006",
+            "SRC-DELPHI-0007:RE-0008",
+            "SRC-DELPHI-0008:RE-0002"
+          ]
+        }
+      }
+    },
+    {
+      "marker_id": "RP-MKR-SENSORY-SMELL-FUMES-0006",
+      "definition": "Geruch/Dämpfe/Incense als sensorischer Anker, der Deutungsrahmen verstärkt.",
+      "places": {
+        "ARUNACHALA": {
+          "present": false,
+          "strength_0_3": 0,
+          "evidence_refs": []
+        },
+        "MALTA": {
+          "present": false,
+          "strength_0_3": 0,
+          "evidence_refs": []
+        },
+        "DELPHI": {
+          "present": true,
+          "strength_0_3": 3,
+          "evidence_refs": [
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0007",
+            "SRC-DELPHI-0017:RE-0002",
+            "SRC-DELPHI-0002:RE-0011",
+            "SRC-DELPHI-0018:RE-0001",
+            "SRC-DELPHI-0018:RE-0003",
+            "SRC-DELPHI-0018:RE-0005"
+          ]
+        }
+      }
+    },
+    {
+      "marker_id": "RP-MKR-ACCESS-CONTROL-MUSEUMIZATION-0007",
+      "definition": "Access-Control/Museumisierung: Zäune, Regeln, Time-Slots, Schutzdächer, kuratierte Inszenierung.",
+      "places": {
+        "ARUNACHALA": {
+          "present": false,
+          "strength_0_3": 0,
+          "evidence_refs": []
+        },
+        "MALTA": {
+          "present": true,
+          "strength_0_3": 1,
+          "evidence_refs": [
+            "SRC-MALTA-0003:RE-0001"
+          ]
+        },
+        "DELPHI": {
+          "present": true,
+          "strength_0_3": 3,
+          "evidence_refs": [
+            "SRC-DELPHI-0004:RE-0011",
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0004",
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0005",
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0017",
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0018",
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0022"
+          ]
+        }
+      }
+    },
+    {
+      "marker_id": "RP-MKR-DEEP-TIME-AWE-0008",
+      "definition": "Deep-time Awe: Demut/Staunen über Zeit-Tiefe, Alter, Monumentalität.",
+      "places": {
+        "ARUNACHALA": {
+          "present": false,
+          "strength_0_3": 0,
+          "evidence_refs": []
+        },
+        "MALTA": {
+          "present": true,
+          "strength_0_3": 2,
+          "evidence_refs": [
+            "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0005",
+            "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0006",
+            "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0008",
+            "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0017",
+            "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0019",
+            "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0022"
+          ]
+        },
+        "DELPHI": {
+          "present": true,
+          "strength_0_3": 1,
+          "evidence_refs": [
+            "SRC-DELPHI-0015:RE-0003",
+            "SRC-DELPHI-0013:RE-0003"
+          ]
+        }
+      }
+    },
+    {
+      "marker_id": "RP-MKR-WOMB-UNDERWORLD-METAPHOR-0009",
+      "definition": "Womb/Unterwelt-Metapher: Enge, Tiefe, 'Mutterleib', Rückkehr in die Erde.",
+      "places": {
+        "ARUNACHALA": {
+          "present": false,
+          "strength_0_3": 0,
+          "evidence_refs": []
+        },
+        "MALTA": {
+          "present": true,
+          "strength_0_3": 1,
+          "evidence_refs": [
+            "TZ-PLACE-MALTA-FRANK-STONER-ENGELMAYER-0001:RE-0020",
+            "SRC-MALTA-0001:RE-0001"
+          ]
+        },
+        "DELPHI": {
+          "present": false,
+          "strength_0_3": 0,
+          "evidence_refs": []
+        }
+      }
+    },
+    {
+      "marker_id": "RP-MKR-LIGHT-QUALITY-MYSTIC-0010",
+      "definition": "Lichtqualität als Atmosphärenmarker (mystisches Licht, Gold/Rosa, Kontur-Unschärfe).",
+      "places": {
+        "ARUNACHALA": {
+          "present": true,
+          "strength_0_3": 2,
+          "evidence_refs": [
+            "TZ-PLACE-ARUNACHALA-FRANK-STONER-ENGELMAYER-0001:RE-0013",
+            "SRC-ARUNACHALA-0003:RE-0004",
+            "SRC-ARUNACHALA-0017:RE-0003",
+            "SRC-ARUNACHALA-0017:RE-0006",
+            "SRC-ARUNACHALA-0001:RE-0006"
+          ]
+        },
+        "MALTA": {
+          "present": true,
+          "strength_0_3": 1,
+          "evidence_refs": [
+            "SRC-MALTA-0009:RE-0003",
+            "SRC-MALTA-0003:RE-0003",
+            "SRC-MALTA-0003:RE-0006",
+            "SRC-MALTA-0010:RE-0006"
+          ]
+        },
+        "DELPHI": {
+          "present": true,
+          "strength_0_3": 3,
+          "evidence_refs": [
+            "SRC-DELPHI-0004:RE-0002",
+            "SRC-DELPHI-0004:RE-0009",
+            "SRC-DELPHI-0003:RE-0008",
+            "SRC-DELPHI-0002:RE-0004",
+            "SRC-DELPHI-0005:RE-0008",
+            "SRC-DELPHI-0010:RE-0003"
+          ]
+        }
+      }
+    },
+    {
+      "marker_id": "RP-MKR-MYTHIC-OVERLAY-DOCTRINAL-0011",
+      "definition": "Mythischer/doctrinaler Overlay: Götter, Schlange, Shiva, Omphalos; Symbolik stabilisiert Ortssinn.",
+      "places": {
+        "ARUNACHALA": {
+          "present": true,
+          "strength_0_3": 1,
+          "evidence_refs": [
+            "SRC-ARUNACHALA-0011:RE-0003",
+            "SRC-ARUNACHALA-0018:RE-0005",
+            "SRC-ARUNACHALA-0018:RE-0006"
+          ]
+        },
+        "MALTA": {
+          "present": false,
+          "strength_0_3": 0,
+          "evidence_refs": []
+        },
+        "DELPHI": {
+          "present": true,
+          "strength_0_3": 3,
+          "evidence_refs": [
+            "SRC-DELPHI-0011:RE-0003",
+            "SRC-DELPHI-0004:RE-0008",
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0003",
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0011",
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0012",
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0013"
+          ]
+        }
+      }
+    },
+    {
+      "marker_id": "RP-MKR-SELF-MIRROR-IDENTITY-0012",
+      "definition": "Place-as-mirror: Selbstreflexion, Identitäts-/Ego-Thema, 'erkenne dich selbst'.",
+      "places": {
+        "ARUNACHALA": {
+          "present": true,
+          "strength_0_3": 2,
+          "evidence_refs": [
+            "TZ-PLACE-ARUNACHALA-FRANK-STONER-ENGELMAYER-0001:RE-0024",
+            "TZ-PLACE-ARUNACHALA-FRANK-STONER-ENGELMAYER-0001:RE-0025",
+            "SRC-ARUNACHALA-0003:RE-0007",
+            "SRC-ARUNACHALA-0017:RE-0006",
+            "SRC-ARUNACHALA-0017:RE-0007",
+            "SRC-ARUNACHALA-0018:RE-0005"
+          ]
+        },
+        "MALTA": {
+          "present": false,
+          "strength_0_3": 0,
+          "evidence_refs": []
+        },
+        "DELPHI": {
+          "present": true,
+          "strength_0_3": 1,
+          "evidence_refs": [
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0027",
+            "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0028"
+          ]
+        }
+      }
+    }
+  ],
+  "notes": "Strength is heuristic (event-count based). Use as comparative signal only, not as proof."
+}

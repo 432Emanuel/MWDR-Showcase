@@ -1,0 +1,187 @@
+{
+  "id": "SRC-DELPHI-0009-RESONANCE",
+  "source_id": "SRC-DELPHI-0009",
+  "place_focus": {
+    "primary_place": "Delphi",
+    "place_type": "archaeological_sanctuary/ruins",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "resonance_events": [
+    {
+      "event_id": "RE-0001",
+      "excerpt": "Der Aufstieg in Delphi ist eine Inszenierung der Vertikalität. Beginnend bei der römischen Agora auf ca. 500 m Höhe führt der Weg in engen Serpentinen…",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "space"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "architectural_form"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0002",
+      "excerpt": "• Körperliche Anstrengung: Berichte erwähnen das „Schwitzen zur Mittagszeit“ und das „Hiking uphill the entire way“.[13, 26] Diese Erschöpfung wird oft als „kathartisch“ wahrgenommen, als…",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "body",
+        "space",
+        "time"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0003",
+      "excerpt": "• Klimatische Varianz: Das „alpine Gefühl“ [7] mit kühler Bergluft und plötzlichen Schatten durch Pinien und Zypressen kontrastiert mit der Hitze der ungeschützten Steinterrassen.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "body",
+        "material",
+        "space"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "sensory_smell"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0004",
+      "excerpt": "Die Klassifizierung als UNESCO-Weltkulturerbe (seit 1987) hat Delphi in einen hochgradig kontrollierten Raum verwandelt.",
+      "layer": [],
+      "channel": [
+        "social"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "social_control_barrier"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0005",
+      "excerpt": "1. Körperlichkeit als Medium: Der Aufstieg ist kein Hindernis, sondern das notwendige rituelle Element, um die „Bedeutung“ des Ortes zu verinnerlichen.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "body"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0006",
+      "excerpt": "Delphi bleibt in der subjektiven Wahrnehmung der „Nabel“, an dem sich die Fäden von Geologie, Mythos, moderner Wissenschaft und digitaler Kultur verknüpfen. Es ist ein…",
+      "layer": [
+        "R4"
+      ],
+      "channel": [
+        "symbolic"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "mythic_context",
+        "place_center_symbol"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0007",
+      "excerpt": "Delphi Orakel • 8 wichtige Infos für deinen Besuch - Greece Moments",
+      "layer": [
+        "R4",
+        "R5"
+      ],
+      "channel": [
+        "symbolic"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "authority_projection"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "title_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0008",
+      "excerpt": "unknown",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "medium_frame; DP-002: treat as reported/subjective unless measured."
+    }
+  ],
+  "aggregate_profile": {
+    "dominant_channels": [
+      "body",
+      "space",
+      "symbolic",
+      "cognition",
+      "material"
+    ],
+    "dominant_triggers": [
+      "other",
+      "architectural_form",
+      "authority_projection",
+      "mythic_context",
+      "place_center_symbol",
+      "sensory_smell",
+      "social_control_barrier"
+    ],
+    "stability_notes": "Auto-extracted from bundle: mix of quotes, summaries and (where needed) bundle-level synthesis lines; DP-002 applied."
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "id": "SRC-ARUNACHALA-0010-RESONANCE",
+  "source_id": "SRC-ARUNACHALA-0010",
+  "place_focus": {
+    "primary_place": "Arunachala",
+    "place_type": "mountain/sacred_site",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "resonance_events": [
+    {
+      "event_id": "RE-0001",
+      "excerpt": "Whenever I step into... Ashram, a sense of calm washes over me, and I feel as if my soul is at peace.",
+      "layer": [
+        "R2"
+      ],
+      "channel": [
+        "emotion"
+      ],
+      "valence": [
+        "positive"
+      ],
+      "intensity_0_5": 4,
+      "triggers": [
+        "ritual_context"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0002",
+      "excerpt": "The sheer devotion and energy in the air are beyond words.",
+      "layer": [
+        "R3",
+        "R5"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 5,
+      "triggers": [
+        "authority_projection"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0003",
+      "excerpt": "There is no other place on Earth where I feel such serenity.",
+      "layer": [
+        "R2"
+      ],
+      "channel": [
+        "emotion"
+      ],
+      "valence": [
+        "positive"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0004",
+      "excerpt": "Beschreibt die unmittelbare emotionale Transformation bei der Ankunft (\"Sense of calm\").",
+      "layer": [
+        "R2"
+      ],
+      "channel": [
+        "emotion"
+      ],
+      "valence": [
+        "positive"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0005",
+      "excerpt": "Dokumentiert die visuelle Wirkung von weißen Pfauen als Symbol für \"reine Glückseligkeit\".",
+      "layer": [
+        "R2"
+      ],
+      "channel": [
+        "emotion"
+      ],
+      "valence": [
+        "positive"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0006",
+      "excerpt": "Thematisiert die Erfahrung der Giri Pradakshina als \"Weg zur Erleuchtung\".",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0007",
+      "excerpt": "Berichtet von der kollektiven Energie von einer Million Pilgern bei Vollmond.",
+      "layer": [
+        "R5"
+      ],
+      "channel": [
+        "social"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "authority_projection"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0008",
+      "excerpt": "Hebt die Beständigkeit des Friedensgefühls über zehn Besuche hinweg hervor.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0009",
+      "excerpt": "A Devotional Journey to Tiruvannamalai",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "title_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0010",
+      "excerpt": "Personal Narrative (Medium)",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "medium_frame; DP-002: treat as reported/subjective unless measured."
+    }
+  ],
+  "aggregate_profile": {
+    "dominant_channels": [
+      "cognition",
+      "emotion",
+      "social"
+    ],
+    "dominant_triggers": [
+      "other",
+      "authority_projection",
+      "ritual_context"
+    ],
+    "stability_notes": "Auto-extracted from bundle: mix of quotes, summaries and (where needed) bundle-level synthesis lines; DP-002 applied."
+  }
+}

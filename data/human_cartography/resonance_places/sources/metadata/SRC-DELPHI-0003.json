@@ -1,0 +1,16 @@
+{
+  "id": "SRC-DELPHI-0003",
+  "place_code": "DELPHI",
+  "created_at": "2026-02-23",
+  "bundle_ref_nums": [
+    10
+  ],
+  "title": "Teil 6 Delphi - Wohnmobil Reisebericht",
+  "author": "Unbekannt",
+  "date_or_year": "2023",
+  "medium": "Blog",
+  "url": "https://www.fluchtauto.de/wohnmobilreisen/griechenland-winter-2023/teil-6-delphi/",
+  "source_type": "secondary_blog",
+  "reliability_tier": "C",
+  "epistemic_notes": "DP-002: treat metaphysical/causal claims as claims; encode as frames, not facts."
+}

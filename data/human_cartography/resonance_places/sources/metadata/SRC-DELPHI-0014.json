@@ -1,0 +1,16 @@
+{
+  "id": "SRC-DELPHI-0014",
+  "place_code": "DELPHI",
+  "created_at": "2026-02-23",
+  "bundle_ref_nums": [
+    15
+  ],
+  "title": "Visiting Delphi, Greece",
+  "author": "Unbekannt",
+  "date_or_year": "k.A.",
+  "medium": "Blog",
+  "url": "https://curioustravelbug.com/visiting-delphi-greece/",
+  "source_type": "secondary_blog",
+  "reliability_tier": "C",
+  "epistemic_notes": "DP-002: treat metaphysical/causal claims as claims; encode as frames, not facts."
+}

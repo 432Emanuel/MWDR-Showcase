@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1",
+  "entries": [
+    {
+      "id": "PA-SITE-VATICAN-001",
+      "title": "Vatikanstadt",
+      "type_ids": ["PA-T01"],
+      "priority": "high",
+      "axes_scoring_summary": {
+        "AX-001": 5,
+        "AX-002": 5,
+        "AX-003": 4,
+        "AX-004": "sakral-legitimierend",
+        "AX-005": [
+          "monumental-rituell",
+          "fortifiziert/perimeter",
+          "symbolische schwellen (tore/plätze)",
+          "cluster/bürokratie"
+        ],
+        "AX-006": 5
+      }
+    },
+    {
+      "id": "PA-SITE-CITY-OF-LONDON-001",
+      "title": "City of London",
+      "type_ids": ["PA-T02"],
+      "priority": "high",
+      "axes_scoring_summary": {
+        "AX-001": 3,
+        "AX-002": 3,
+        "AX-003": 2,
+        "AX-004": "finanziell/ökonomisch",
+        "AX-005": [
+          "cluster/bürokratie",
+          "symbolische schwellen (tore/plätze)",
+          "unsichtbare architektur (netzwerke/datenzentren)"
+        ],
+        "AX-006": 5
+      }
+    },
+    {
+      "id": "PA-SITE-WASHINGTON-DC-001",
+      "title": "Washington, D.C.",
+      "type_ids": ["PA-T03"],
+      "priority": "high",
+      "axes_scoring_summary": {
+        "AX-001": 3,
+        "AX-002": 3,
+        "AX-003": 3,
+        "AX-004": "hybrid",
+        "AX-005": [
+          "achsen/planstadt",
+          "cluster/bürokratie",
+          "symbolische schwellen (tore/plätze)"
+        ],
+        "AX-006": 5
+      }
+    },
+    {
+      "id": "PA-SITE-NEOM-001",
+      "title": "NEOM",
+      "type_ids": ["PA-T05"],
+      "priority": "high",
+      "axes_scoring_summary": {
+        "AX-001": 3,
+        "AX-002": 4,
+        "AX-003": 4,
+        "AX-004": "technokratisch/innovationsbasiert",
+        "AX-005": [
+          "infrastruktur-dominant",
+          "fortifiziert/perimeter",
+          "unsichtbare architektur (netzwerke/datenzentren)",
+          "achsen/planstadt"
+        ],
+        "AX-006": 4
+      }
+    }
+  ],
+  "by_type": {
+    "PA-T01": ["PA-SITE-VATICAN-001"],
+    "PA-T02": ["PA-SITE-CITY-OF-LONDON-001"],
+    "PA-T03": ["PA-SITE-WASHINGTON-DC-001"],
+    "PA-T05": ["PA-SITE-NEOM-001"]
+  },
+  "by_host_country": {
+    "IT": ["PA-SITE-VATICAN-001"],
+    "GB": ["PA-SITE-CITY-OF-LONDON-001"],
+    "US": ["PA-SITE-WASHINGTON-DC-001"],
+    "SA": ["PA-SITE-NEOM-001"]
+  },
+  "by_leverage_top": [
+    "PA-SITE-VATICAN-001",
+    "PA-SITE-CITY-OF-LONDON-001",
+    "PA-SITE-WASHINGTON-DC-001",
+    "PA-SITE-NEOM-001"
+  ]
+}
+

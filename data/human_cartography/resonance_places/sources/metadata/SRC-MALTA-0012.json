@@ -1,0 +1,14 @@
+{
+  "id": "SRC-MALTA-0012",
+  "place_code": "MALTA",
+  "created_at": "2026-02-23",
+  "bundle_ref_nums": [],
+  "title": "Malta: Prähistorische Tempel (Erlebnisbericht)",
+  "author": "Diverse Rezensenten (GetYourGuide/TripAdvisor)",
+  "date_or_year": "2023/2024",
+  "medium": "Bewertungsplattform",
+  "url": "https://www.getyourguide.de/malta-l90/prahistorische-tempel-tour-t26169/",
+  "source_type": "first_person_report",
+  "reliability_tier": "B",
+  "epistemic_notes": "DP-002: treat metaphysical/causal claims as claims; encode as frames, not facts."
+}

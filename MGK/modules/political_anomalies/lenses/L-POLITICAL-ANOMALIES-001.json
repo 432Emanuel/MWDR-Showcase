@@ -1,0 +1,215 @@
+{
+  "version": "1.0",
+  "type": "mgk_lens",
+  "id": "L-POLITICAL-ANOMALIES-001",
+  "title": "Politische Anomalien",
+  "subtitle": "Orte mit Sonderstatus als Souveränitäts-Interfaces (Architektur x Recht x Macht)",
+  "status": "draft",
+  "language": "de",
+  "created_at": "2026-02-23",
+  "owners": {
+    "curator": "Emanuel",
+    "implementation_agent": "codex"
+  },
+  "mgk": {
+    "module_path_suggestion": "MGK/modules/political_anomalies/",
+    "lens_path_suggestion": "MGK/modules/political_anomalies/lenses/L-POLITICAL-ANOMALIES-001.json",
+    "sitecard_path_suggestion": "MGK/modules/political_anomalies/sitecards/",
+    "notes_path_suggestion": "MGK/modules/political_anomalies/notes/",
+    "assets_path_suggestion": "MGK/modules/political_anomalies/assets/"
+  },
+  "core_statement": "Politische Anomalien sind räumlich abgegrenzte Zonen mit abweichenden Rechts-, Governance- oder Eigentumsregimen, die als Schnittstellen zwischen Machtblöcken fungieren. Architektur codiert dort Souveränität und ermöglicht besondere Formen von Kontrolle, Kooperation oder Abschirmung.",
+  "scope": {
+    "in_scope": [
+      "Enklaven/Exklaven mit Sonderrechten",
+      "Stadtstaaten und Mikro-Staaten mit globaler Hebelwirkung",
+      "Diplomatische Exterritorialität (z.B. UN, Botschaften)",
+      "Sonderwirtschaftszonen, Freihandels- und Innovationszonen",
+      "Militärische Sonderräume (Basen, Sperrgebiete) sofern governance-relevant",
+      "Räumliche Governance-Experimente (Smart-City-Zonen, Charter Cities)"
+    ],
+    "out_of_scope": [
+      "Reine Mythos-Orte ohne verifizierbaren Sonderstatus (separat als Mythos/Projection-Lens)",
+      "Normale Verwaltungsbezirke ohne abweichendes Regime",
+      "Reine touristische Marken ohne Rechts-/Governance-Differenz"
+    ],
+    "timeframe": {
+      "min_year": 1000,
+      "max_year": 2100,
+      "note": "Historische Kontinuitäten sind relevant, Fokus aber auf moderne Ausprägungen (ca. 1800+)."
+    }
+  },
+  "research_questions": [
+    "Welche Art von Sonderstatus liegt vor (Recht, Steuer, Gerichtsbarkeit, Sicherheit, Diplomatie)?",
+    "Welche Machtressourcen werden dort konzentriert (Kapital, Legitimation, Daten, Militär, Symbolik)?",
+    "Wie codiert die Architektur den Sonderstatus (Zugänge, Achsen, Monumente, Infrastrukturen)?",
+    "Welche Akteure profitieren (Staaten, Orden, Banken, Konzerne, Netzwerke)?",
+    "Welche Narrative stabilisieren die Sonderzone (Neutralität, Heiligkeit, Innovation, Sicherheit)?",
+    "Wie verändert sich der Sonderstatus über Zeit (Expansion, Reform, Skandale, Internationalisierung)?"
+  ],
+  "axes": [
+    {
+      "id": "AX-001",
+      "name": "Souveränitätsgrad",
+      "scale": "0..5",
+      "anchors": {
+        "0": "keine Sonderrechte",
+        "3": "weitreichende Autonomie innerhalb eines Staates",
+        "5": "eigene internationale Souveränität"
+      }
+    },
+    {
+      "id": "AX-002",
+      "name": "Rechtsdifferenz",
+      "scale": "0..5",
+      "anchors": {
+        "0": "normales Recht",
+        "3": "teilweise Sonderregime (z.B. Steuer/Handel)",
+        "5": "eigene Gerichtsbarkeit/Regelsystem"
+      }
+    },
+    {
+      "id": "AX-003",
+      "name": "Zugangsregime",
+      "scale": "0..5",
+      "anchors": {
+        "0": "offen",
+        "3": "selektiv/registriert",
+        "5": "stark kontrolliert/abgeschirmt"
+      }
+    },
+    {
+      "id": "AX-004",
+      "name": "Machtmodus",
+      "scale": "categorical",
+      "values": [
+        "sakral-legitimierend",
+        "finanziell/ökonomisch",
+        "diplomatisch/multilateral",
+        "militärisch/sicherheitsbasiert",
+        "technokratisch/innovationsbasiert",
+        "hybrid"
+      ]
+    },
+    {
+      "id": "AX-005",
+      "name": "Architekturcode",
+      "scale": "categorical_multi",
+      "values": [
+        "monumental-rituell",
+        "achsen/planstadt",
+        "cluster/bürokratie",
+        "fortifiziert/perimeter",
+        "infrastruktur-dominant",
+        "symbolische schwellen (tore/plätze)",
+        "unsichtbare architektur (netzwerke/datenzentren)"
+      ]
+    },
+    {
+      "id": "AX-006",
+      "name": "Hebelwirkung",
+      "scale": "0..5",
+      "anchors": {
+        "0": "lokal",
+        "3": "regional",
+        "5": "global"
+      }
+    }
+  ],
+  "typology": [
+    {
+      "type_id": "PA-T01",
+      "name": "Sakrale Souveränität",
+      "short_definition": "Sonderstatus durch religiöse Legitimation und eigene Kirchen-/Ordensstrukturen.",
+      "signals": ["eigene Diplomatie", "eigene Gerichtsbarkeit", "Ritualarchitektur", "historische Kontinuität"],
+      "examples_seed": ["Vatikan", "Berg Athos"]
+    },
+    {
+      "type_id": "PA-T02",
+      "name": "Finanzielle Sonderzone",
+      "short_definition": "Sonderstatus zur Kapitalmobilität, Steuer-/Regelvorteilen und Finanzinfrastruktur.",
+      "signals": ["Sonderwahlrecht/Verwaltung", "Bankencluster", "Regel-Asymmetrie", "Netzwerkdichte"],
+      "examples_seed": ["City of London", "Liechtenstein"]
+    },
+    {
+      "type_id": "PA-T03",
+      "name": "Föderaler Sonderdistrikt",
+      "short_definition": "Kapital-/Regierungsraum, der bewusst keinem Gliedstaat/Region zugeordnet ist.",
+      "signals": ["federal control", "monumentale Achsen", "institutionelle Cluster", "repräsentative Mythologie"],
+      "examples_seed": ["Washington, D.C."]
+    },
+    {
+      "type_id": "PA-T04",
+      "name": "Diplomatische Exterritorialität",
+      "short_definition": "Räume, die durch internationales Recht/Abkommen partiell entkoppelt sind.",
+      "signals": ["immunities", "international treaty basis", "sicherheitsregime", "neutralitätsnarrativ"],
+      "examples_seed": ["UN HQ", "Botschaften"]
+    },
+    {
+      "type_id": "PA-T05",
+      "name": "Zukunfts-/Sonderwirtschaftszone",
+      "short_definition": "Gezielt geschaffene Governance-Experimentierfelder (Innovation, Investorenrecht, Smart City).",
+      "signals": ["charter-like rules", "selektiver zugang", "technokratische steuerung", "investor narrative"],
+      "examples_seed": ["NEOM", "Shenzhen (historisch)"]
+    }
+  ],
+  "sitecard_template": {
+    "type": "mgk_sitecard",
+    "fields": [
+      "id",
+      "title",
+      "geo",
+      "type_ids",
+      "summary",
+      "status_claims",
+      "architecture_power_interface",
+      "axes_scoring",
+      "actors",
+      "narratives",
+      "risks_and_controversies",
+      "timeline",
+      "comparisons",
+      "sources"
+    ],
+    "axes_scoring_rules": "Für jede Achse AX-001..AX-006 vergeben wir Werte + kurze Begründung. AX-004/AX-005 sind Kategorien."
+  },
+  "seed_places_to_analyze": [
+    {
+      "id": "PA-SITE-VATICAN-001",
+      "title": "Vatikanstadt",
+      "type_ids": ["PA-T01"],
+      "priority": "high"
+    },
+    {
+      "id": "PA-SITE-CITY-OF-LONDON-001",
+      "title": "City of London",
+      "type_ids": ["PA-T02"],
+      "priority": "high"
+    },
+    {
+      "id": "PA-SITE-WASHINGTON-DC-001",
+      "title": "Washington, D.C.",
+      "type_ids": ["PA-T03"],
+      "priority": "high"
+    },
+    {
+      "id": "PA-SITE-NEOM-001",
+      "title": "NEOM",
+      "type_ids": ["PA-T05"],
+      "priority": "high"
+    }
+  ],
+  "output_artifacts": [
+    "README.md (Modulbeschreibung + Raster)",
+    "Lens JSON (dieses Dokument)",
+    "4 Sitecards (Vatikan, City of London, Washington DC, NEOM)",
+    "index.json (Liste aller Sitecards + quick filters nach Typ/Achsen)",
+    "notes/ (offene Fragen, Hypothesen, Recherche-Lücken)"
+  ],
+  "guardrails": {
+    "epistemic_labels_required": true,
+    "labels": ["fact", "inference", "hypothesis"],
+    "rule": "Jede strittige Aussage in 'status_claims' oder 'risks_and_controversies' muss mit label + Quelle oder als Hypothese markiert werden."
+  }
+}
+

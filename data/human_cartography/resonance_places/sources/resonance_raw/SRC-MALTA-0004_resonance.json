@@ -1,0 +1,216 @@
+{
+  "id": "SRC-MALTA-0004-RESONANCE",
+  "source_id": "SRC-MALTA-0004",
+  "place_focus": {
+    "primary_place": "Megalithic Temples Malta",
+    "place_type": "megalithic_temple_complex",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "resonance_events": [
+    {
+      "event_id": "RE-0001",
+      "excerpt": "Standing in the Hypogeum is like being inside a giant bell.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "material"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "architectural_form"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0002",
+      "excerpt": "At certain pitches, one feels the sound vibrating in bone and tissue as much as hearing it in the ear.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "body"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 5,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0003",
+      "excerpt": "Findings indicated that at 110 Hz the patterns of activity over the prefrontal cortex abruptly shifted... resulting in a relative deactivation of the language centre.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0004",
+      "excerpt": "Zusammenfassung der archäoakustischen Forschung von Dr. Paolo Debertolis und Dr. Ian Cook.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0005",
+      "excerpt": "Erklärung der \"Rechts-Dominanz\" im Gehirn bei Einwirkung von 110 Hz Frequenzen.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0006",
+      "excerpt": "Hypothese über die bewusste Nutzung von Schall zur rituellen Gedankensteuerung und Empathieförderung.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "space"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "architectural_form"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0007",
+      "excerpt": "Bericht über Experimente mit Schamanentrommeln, die ähnliche Resonanzeffekte wie die menschliche Stimme erzielen.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0008",
+      "excerpt": "Vergleich der akustischen Phänomene mit prähistorischen Stätten in Irland (Newgrange).",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "historical_context"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0009",
+      "excerpt": "Echoes of History: The Incredible Sound Effects",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "historical_context"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "title_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0010",
+      "excerpt": "Online-Journal/Blog",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "medium_frame; DP-002: treat as reported/subjective unless measured."
+    }
+  ],
+  "aggregate_profile": {
+    "dominant_channels": [
+      "cognition",
+      "body",
+      "material",
+      "space"
+    ],
+    "dominant_triggers": [
+      "other",
+      "architectural_form",
+      "historical_context"
+    ],
+    "stability_notes": "Auto-extracted from bundle: mix of quotes, summaries and (where needed) bundle-level synthesis lines; DP-002 applied."
+  }
+}

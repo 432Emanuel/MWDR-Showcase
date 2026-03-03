@@ -1,0 +1,158 @@
+{
+  "id": "TZ-PLACE-DELPHI-AGG-0001-RESONANCE-AGGREGATE",
+  "created_at": "2026-02-23",
+  "place_focus": {
+    "primary_place": "Delphi",
+    "place_type": "archaeological_sanctuary/ruins",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "source_set": {
+    "count": 21,
+    "tiers": {
+      "A": 1,
+      "B": 11,
+      "C": 9,
+      "D": 0
+    },
+    "notes": "Includes 1 dense Frank transcript (tier B) + research bundle sources."
+  },
+  "dominant_channels": [
+    "cognition",
+    "symbolic",
+    "space",
+    "time",
+    "social",
+    "body"
+  ],
+  "dominant_triggers": [
+    "other",
+    "authority_projection",
+    "visual_form",
+    "sensory_smell",
+    "mythic_context",
+    "place_center_symbol",
+    "social_control_barrier",
+    "architectural_form",
+    "historical_context",
+    "material_mass"
+  ],
+  "marker_candidates": [
+    {
+      "marker_id": "RP-MKR-ACCESS-CONTROL-MUSEUMIZATION-0007",
+      "definition": "Access-Control/Museumisierung: Zäune, Regeln, Time-Slots, Schutzdächer, kuratierte Inszenierung.",
+      "evidence_refs": [
+        "SRC-DELPHI-0004:RE-0011",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0004",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0005",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0017",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0018"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-LIGHT-QUALITY-MYSTIC-0010",
+      "definition": "Lichtqualität als Atmosphärenmarker (mystisches Licht, Gold/Rosa, Kontur-Unschärfe).",
+      "evidence_refs": [
+        "SRC-DELPHI-0004:RE-0002",
+        "SRC-DELPHI-0004:RE-0009",
+        "SRC-DELPHI-0003:RE-0008",
+        "SRC-DELPHI-0002:RE-0004",
+        "SRC-DELPHI-0005:RE-0008"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-MYTHIC-OVERLAY-DOCTRINAL-0011",
+      "definition": "Mythischer/doctrinaler Overlay: Götter, Schlange, Shiva, Omphalos; Symbolik stabilisiert Ortssinn.",
+      "evidence_refs": [
+        "SRC-DELPHI-0011:RE-0003",
+        "SRC-DELPHI-0004:RE-0008",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0003",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0011",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0012"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-PLACE-AS-AGENT-GURU-0001",
+      "definition": "Ort wird als Akteur/Lehrinstanz gerahmt (place-as-guru/agency), inkl. Authority-Transfer.",
+      "evidence_refs": [
+        "SRC-DELPHI-0011:RE-0002",
+        "SRC-DELPHI-0011:RE-0005",
+        "SRC-DELPHI-0004:RE-0003",
+        "SRC-DELPHI-0004:RE-0010",
+        "SRC-DELPHI-0004:RE-0012"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-SENSORY-SMELL-FUMES-0006",
+      "definition": "Geruch/Dämpfe/Incense als sensorischer Anker, der Deutungsrahmen verstärkt.",
+      "evidence_refs": [
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0007",
+        "SRC-DELPHI-0017:RE-0002",
+        "SRC-DELPHI-0002:RE-0011",
+        "SRC-DELPHI-0018:RE-0001",
+        "SRC-DELPHI-0018:RE-0003"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-VERTICAL-ASCENT-CHOREOGRAPHY-0003",
+      "definition": "Aufstieg/Vertikalität und Weg-Choreographie als somatischer Trigger (Serpentinen, Stufen, Entschleunigung).",
+      "evidence_refs": [
+        "SRC-DELPHI-0011:RE-0001",
+        "SRC-DELPHI-0005:RE-0007",
+        "SRC-DELPHI-0010:RE-0001",
+        "SRC-DELPHI-0010:RE-0002",
+        "SRC-DELPHI-0010:RE-0004"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-TIME-DENSITY-THINNING-0005",
+      "definition": "Zeitdichte/Temporal-Thinning: subjektive Zeitverschiebung, 'Ewigkeit', Vorher/Nachher-Zäsur.",
+      "evidence_refs": [
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0006",
+        "SRC-DELPHI-0007:RE-0008",
+        "SRC-DELPHI-0008:RE-0002"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-DEEP-TIME-AWE-0008",
+      "definition": "Deep-time Awe: Demut/Staunen über Zeit-Tiefe, Alter, Monumentalität.",
+      "evidence_refs": [
+        "SRC-DELPHI-0015:RE-0003",
+        "SRC-DELPHI-0013:RE-0003"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    },
+    {
+      "marker_id": "RP-MKR-SELF-MIRROR-IDENTITY-0012",
+      "definition": "Place-as-mirror: Selbstreflexion, Identitäts-/Ego-Thema, 'erkenne dich selbst'.",
+      "evidence_refs": [
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0027",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0028"
+      ],
+      "risk_notes": "DP-002: treat as pattern marker, not proof of metaphysical causality; consider genre + tourism curation confounds."
+    }
+  ],
+  "stability_notes": "Dominant channels/triggers computed over all extracted events (research + Frank transcript). Interpretive claims are separated via `raw_vs_claim`.",
+  "museumization_overlays": [
+    {
+      "overlay_id": "MUSEUMIZATION-ACCESS-CONTROL",
+      "description": "Reported/observed curation, rules, barriers or protective infrastructure shaping experience.",
+      "evidence_refs": [
+        "SRC-DELPHI-0004:RE-0011",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0004",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0005",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0017",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0018",
+        "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001:RE-0022"
+      ],
+      "notes": "Confounder: intensity may be amplified by restriction/rarity or reduced by staging."
+    }
+  ]
+}

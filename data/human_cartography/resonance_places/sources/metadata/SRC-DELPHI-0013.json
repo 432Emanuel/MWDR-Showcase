@@ -1,0 +1,16 @@
+{
+  "id": "SRC-DELPHI-0013",
+  "place_code": "DELPHI",
+  "created_at": "2026-02-23",
+  "bundle_ref_nums": [
+    2
+  ],
+  "title": "Archaeological Site of Delphi - UNESCO World Heritage Centre",
+  "author": "Unbekannt",
+  "date_or_year": "k.A.",
+  "medium": "unknown",
+  "url": "https://whc.unesco.org/en/list/393/",
+  "source_type": "official_site",
+  "reliability_tier": "A",
+  "epistemic_notes": "DP-002: treat metaphysical/causal claims as claims; encode as frames, not facts."
+}

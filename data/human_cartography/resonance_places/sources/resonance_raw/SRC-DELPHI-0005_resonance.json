@@ -1,0 +1,260 @@
+{
+  "id": "SRC-DELPHI-0005-RESONANCE",
+  "source_id": "SRC-DELPHI-0005",
+  "place_focus": {
+    "primary_place": "Delphi",
+    "place_type": "archaeological_sanctuary/ruins",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "resonance_events": [
+    {
+      "event_id": "RE-0001",
+      "excerpt": "I had no idea we would be scouring over a steep mountainside full of pine and cypress trees.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "space"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0002",
+      "excerpt": "I guess I just didn’t realize how 'Alpine' the Delphi would feel.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0003",
+      "excerpt": "Right alongside some fire extinguishers... you’ll find ancient Greek columns. No big deal.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "visual_form"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0004",
+      "excerpt": "Überraschung über das „alpine“ Klima und die Vegetation (Pinien, Zypressen) im Gegensatz zum klassischen „Insel-Griechenland“.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "sensory_smell"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0005",
+      "excerpt": "Wahrnehmung der „Museumisierung“ im Alltag: Antike Säulen stehen nonchalant neben modernen Feuerlöschern.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0006",
+      "excerpt": "Fokus auf die Inschriften an den Mauern, die von befreiten Sklaven berichten – ein menschliches Element in der monumentalen Architektur.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0007",
+      "excerpt": "Physische Erschöpfung durch den Aufstieg zum Stadion am Gipfel der Anlage.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0008",
+      "excerpt": "Logistische Beobachtung: Die Ankunft um 9 Uhr morgens ermöglicht eine ruhige Besichtigung vor den Tourbussen.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition",
+        "social"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "visual_form",
+        "silence"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0009",
+      "excerpt": "• Klimatische Varianz: Das „alpine Gefühl“ [7] mit kühler Bergluft und plötzlichen Schatten durch Pinien und Zypressen kontrastiert mit der Hitze der ungeschützten Steinterrassen.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "body",
+        "material",
+        "space"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "sensory_smell"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0010",
+      "excerpt": "• Der Blick des Charioteer: Die Bronzestatue des Wagenlenkers wird als emotionaler Fixpunkt beschrieben, da seine „eingelegten Augen“ eine Lebendigkeit ausstrahlen, die den Ruinen im…",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0011",
+      "excerpt": "A Day in Delphi (Delfie Selfie)",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "title_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0012",
+      "excerpt": "Blog",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "medium_frame; DP-002: treat as reported/subjective unless measured."
+    }
+  ],
+  "aggregate_profile": {
+    "dominant_channels": [
+      "cognition",
+      "space",
+      "body",
+      "material",
+      "social"
+    ],
+    "dominant_triggers": [
+      "other",
+      "sensory_smell",
+      "visual_form",
+      "silence"
+    ],
+    "stability_notes": "Auto-extracted from bundle: mix of quotes, summaries and (where needed) bundle-level synthesis lines; DP-002 applied."
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "SRC-MALTA-0006-RESONANCE",
+  "source_id": "SRC-MALTA-0006",
+  "place_focus": {
+    "primary_place": "Megalithic Temples Malta",
+    "place_type": "megalithic_temple_complex",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "resonance_events": [
+    {
+      "event_id": "RE-0001",
+      "excerpt": "Maltese architect Richard England strongly support the hypothesis that the statuettes found... represent the Great Mother Goddess.",
+      "layer": [
+        "R4",
+        "R5"
+      ],
+      "channel": [
+        "symbolic"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "authority_projection",
+        "ritual_imagination"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0002",
+      "excerpt": "The question... brought with it many controversial issues.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0003",
+      "excerpt": "Kritische Analyse der Funde von anthropomorphen Skulpturen in den Tempeln.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0004",
+      "excerpt": "Diskussion über die Interpretation der Tempelarchitektur als Abbild des weiblichen Körpers.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "body"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0005",
+      "excerpt": "Gegenüberstellung von archäologischen Fakten und spirituellen/feministischen Deutungen der 1980er Jahre.",
+      "layer": [
+        "R3",
+        "R5"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0006",
+      "excerpt": "Untersuchung der rituellen Bedeutung der \"Sleeping Lady\" im Kontext des Hypogäums.",
+      "layer": [
+        "R3",
+        "R4"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "ritual_imagination"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0007",
+      "excerpt": "Was Malta a Place for the Veneration of a Mother Goddess?",
+      "layer": [
+        "R4",
+        "R5"
+      ],
+      "channel": [
+        "symbolic"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "authority_projection",
+        "ritual_imagination"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "title_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0008",
+      "excerpt": "Wissenschaftlicher Artikel (ResearchGate)",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "space"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "medium_frame; DP-002: treat as reported/subjective unless measured."
+    }
+  ],
+  "aggregate_profile": {
+    "dominant_channels": [
+      "cognition",
+      "symbolic",
+      "body",
+      "space"
+    ],
+    "dominant_triggers": [
+      "other",
+      "ritual_imagination",
+      "authority_projection"
+    ],
+    "stability_notes": "Auto-extracted from bundle: mix of quotes, summaries and (where needed) bundle-level synthesis lines; DP-002 applied."
+  }
+}

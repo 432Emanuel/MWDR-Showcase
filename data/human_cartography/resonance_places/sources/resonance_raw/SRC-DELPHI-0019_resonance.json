@@ -1,0 +1,127 @@
+{
+  "id": "SRC-DELPHI-0019-RESONANCE",
+  "source_id": "SRC-DELPHI-0019",
+  "place_focus": {
+    "primary_place": "Delphi",
+    "place_type": "archaeological_sanctuary/ruins",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "resonance_events": [
+    {
+      "event_id": "RE-0001",
+      "excerpt": "Inmitten dieser vertikalen Dynamik fungiert der Omphalos als statisches Symbol. Besucher berichten von einem Gefühl des „Privilegs“, diesen Punkt zu sehen, den die antiken Griechen…",
+      "layer": [
+        "R4"
+      ],
+      "channel": [
+        "symbolic"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "place_center_symbol"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0002",
+      "excerpt": "• Der Blick des Charioteer: Die Bronzestatue des Wagenlenkers wird als emotionaler Fixpunkt beschrieben, da seine „eingelegten Augen“ eine Lebendigkeit ausstrahlen, die den Ruinen im…",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0003",
+      "excerpt": "Delphi Museum Tickets: Your Comprehensive Guide to Visiting Ancient Greece's Sacred Oracle Site",
+      "layer": [
+        "R1",
+        "R4",
+        "R5"
+      ],
+      "channel": [
+        "symbolic",
+        "social",
+        "space"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "authority_projection",
+        "social_control_barrier"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "title_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0004",
+      "excerpt": "unknown",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "medium_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0005",
+      "excerpt": "Inmitten dieser vertikalen Dynamik fungiert der Omphalos als statisches Symbol",
+      "layer": [
+        "R4"
+      ],
+      "channel": [
+        "symbolic"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "place_center_symbol"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; split; DP-002: treat as reported/subjective unless measured."
+    }
+  ],
+  "aggregate_profile": {
+    "dominant_channels": [
+      "symbolic",
+      "cognition",
+      "social",
+      "space"
+    ],
+    "dominant_triggers": [
+      "other",
+      "place_center_symbol",
+      "authority_projection",
+      "social_control_barrier"
+    ],
+    "stability_notes": "Auto-extracted from bundle: mix of quotes, summaries and (where needed) bundle-level synthesis lines; DP-002 applied."
+  }
+}

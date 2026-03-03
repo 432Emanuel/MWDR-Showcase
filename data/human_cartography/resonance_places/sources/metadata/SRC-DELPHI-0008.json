@@ -1,0 +1,16 @@
+{
+  "id": "SRC-DELPHI-0008",
+  "place_code": "DELPHI",
+  "created_at": "2026-02-23",
+  "bundle_ref_nums": [
+    6
+  ],
+  "title": "The Oracle of Delphi: My Experiences",
+  "author": "Deanna Riddick",
+  "date_or_year": "2024",
+  "medium": "Essay",
+  "url": "https://medium.com/@riddickdm/the-oracle-of-delphi-my-experiences-visiting-this-holy-land-1065cdedef8b",
+  "source_type": "first_person_report",
+  "reliability_tier": "B",
+  "epistemic_notes": "DP-002: treat metaphysical/causal claims as claims; encode as frames, not facts."
+}

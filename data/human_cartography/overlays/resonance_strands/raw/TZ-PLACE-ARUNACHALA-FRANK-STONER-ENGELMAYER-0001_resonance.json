@@ -1,0 +1,298 @@
+{
+  "id": "TZ-PLACE-ARUNACHALA-FRANK-STONER-ENGELMAYER-0001-RESONANCE",
+  "source_id": "TZ-PLACE-ARUNACHALA-FRANK-STONER-ENGELMAYER-0001",
+  "place_focus": {
+    "primary_place": "Arunachala",
+    "place_type": "mountain/sacred_site",
+    "geo_hints": [
+      "Indien",
+      "Südindien",
+      "Tamil Nadu",
+      "Thiruvannamalai",
+      "Chennai (Madras)",
+      "Bangalore"
+    ],
+    "cultural_matrix_mentions": [
+      "Hinduismus",
+      "Shiva",
+      "Brahma",
+      "Vishnu",
+      "Ramana Maharishi",
+      "Ashram",
+      "Brahmanen",
+      "Kaste",
+      "Pradakshina",
+      "Puja",
+      "Vollmond",
+      "Kartikai",
+      "Dipam",
+      "Ghee",
+      "Bhakti",
+      "Bhajans",
+      "Self-Inquiry",
+      "Maya"
+    ]
+  },
+  "resonance_events": [
+    {
+      "event_id": "RE-0001",
+      "excerpt": "ich möchte wissen, was da Sache ist und wenn ich dabei untergehe, dann wäre mir das damals auch egal gewesen.",
+      "layer": ["R2", "R3"],
+      "channel": ["emotion", "cognition"],
+      "valence": ["mixed"],
+      "intensity_0_5": 4,
+      "triggers": ["story_context"],
+      "notes": "Existenzielle Suchbewegung; Offenheit + Risikoakzeptanz als Ausgangszustand (Selbstbeschreibung)."
+    },
+    {
+      "event_id": "RE-0002",
+      "excerpt": "mein Guru ist aber auch kein Mensch, mein Guru ist ein Berg",
+      "layer": ["R4", "R5"],
+      "channel": ["cognition", "symbolic"],
+      "valence": ["positive"],
+      "intensity_0_5": 4,
+      "triggers": ["other"],
+      "notes": "Autoritäts- und Sinnanker wird auf einen Ort übertragen (Metapher/Setzung des Sprechers; nicht ontologisch validiert)."
+    },
+    {
+      "event_id": "RE-0003",
+      "excerpt": "okay, wenn da jetzt echt was ist, dann zeig es mir, ich möchte es wissen, ich bin bereit",
+      "layer": ["R3", "R4"],
+      "channel": ["cognition", "symbolic"],
+      "valence": ["mixed"],
+      "intensity_0_5": 3,
+      "triggers": ["silence", "encounter"],
+      "notes": "Test-/Anrufungsformel an den Ort; Erwartung einer Antwort/Resonanz (subjektive Rahmung)."
+    },
+    {
+      "event_id": "RE-0004",
+      "excerpt": "ich habe nichts kapiert, ich habe nichts gecheckt",
+      "layer": ["R2", "R3"],
+      "channel": ["cognition", "emotion", "social"],
+      "valence": ["negative"],
+      "intensity_0_5": 3,
+      "triggers": ["ritual_context", "encounter"],
+      "notes": "Desorientierung im Ritual-/Ashram-Kontext; kognitive Überlastung durch neue Codes und Praktiken."
+    },
+    {
+      "event_id": "RE-0005",
+      "excerpt": "du hast da kein Talent dafür",
+      "layer": ["R2", "R3"],
+      "channel": ["emotion", "cognition", "social"],
+      "valence": ["negative"],
+      "intensity_0_5": 4,
+      "triggers": ["encounter"],
+      "notes": "Soziale Abwertung/Initiationsdruck; löst Selbstzweifel und narrative Neuordnung ('wer bin ich hier?') aus."
+    },
+    {
+      "event_id": "RE-0006",
+      "excerpt": "ich habe wirklich Tränen in den Augen gehabt, vor lauter Rührung, ob des bloßen Daseins",
+      "layer": ["R1", "R2"],
+      "channel": ["emotion", "body", "space"],
+      "valence": ["positive"],
+      "intensity_0_5": 5,
+      "triggers": ["encounter"],
+      "notes": "Affektiver Durchbruch (Rührung/Tränen) im Gehen/Unterwegssein; unmittelbare Präsenz-Intensivierung."
+    },
+    {
+      "event_id": "RE-0007",
+      "excerpt": "das war alles einfach nur noch am Leuchten",
+      "layer": ["R1", "R2"],
+      "channel": ["space", "emotion"],
+      "valence": ["positive"],
+      "intensity_0_5": 5,
+      "triggers": ["visual_form"],
+      "notes": "Wahrnehmungssteigerung (Umwelt als 'leuchtend'); phänomenologisch, ohne kausale Erklärung."
+    },
+    {
+      "event_id": "RE-0008",
+      "excerpt": "das war so die erste riesengroße Lektion, die mir der Berg so erteilt hat",
+      "layer": ["R3", "R4"],
+      "channel": ["cognition", "symbolic"],
+      "valence": ["positive"],
+      "intensity_0_5": 4,
+      "triggers": ["encounter", "other"],
+      "notes": "Ort wird als didaktischer Akteur gerahmt ('Lektionen'); Risiko von Entitization/Agency-Projektion."
+    },
+    {
+      "event_id": "RE-0009",
+      "excerpt": "ich war so leicht, also ich habe echt das Gefühl, ich schwebe",
+      "layer": ["R1", "R2"],
+      "channel": ["body", "emotion"],
+      "valence": ["positive"],
+      "intensity_0_5": 5,
+      "triggers": ["other"],
+      "notes": "Körperzustand als Leichtigkeit/Schweben beschrieben (subjektive Körperwahrnehmung)."
+    },
+    {
+      "event_id": "RE-0010",
+      "excerpt": "Eine Lichtsäule ohne Anfang und ohne Ende.",
+      "layer": ["R4", "R5"],
+      "channel": ["symbolic", "cognition"],
+      "valence": ["unknown"],
+      "intensity_0_5": 3,
+      "triggers": ["story_context"],
+      "notes": "Mythisches Bild (Erzählung über Shiva/Brahma/Vishnu); dient als Deutungsrahmen, nicht als Faktbehauptung."
+    },
+    {
+      "event_id": "RE-0011",
+      "excerpt": "mit jedem Schritt verschmelzt du irgendwo mit der Masse der Menschen.",
+      "layer": ["R2", "R4"],
+      "channel": ["social", "space", "emotion"],
+      "valence": ["mixed"],
+      "intensity_0_5": 5,
+      "triggers": ["ritual_context"],
+      "notes": "Massenritual als Resonanzverstärker; Beschreibung von Entgrenzung/Ich-Verdünnung im Gehen."
+    },
+    {
+      "event_id": "RE-0012",
+      "excerpt": "dass der Berg sozusagen zur Kerze wird.",
+      "layer": ["R1", "R4"],
+      "channel": ["space", "symbolic"],
+      "valence": ["positive"],
+      "intensity_0_5": 4,
+      "triggers": ["ritual_context", "visual_form"],
+      "notes": "Visuelles Ritualsignal (Feuer auf der Spitze); symbolische Verdichtung 'Berg = Licht'."
+    },
+    {
+      "event_id": "RE-0013",
+      "excerpt": "wenn dann dieses Licht angeht, wenn dieses Feuer und Zimmel wird, da kommt ein Energieschub.",
+      "layer": ["R2", "R4"],
+      "channel": ["emotion", "symbolic"],
+      "valence": ["positive"],
+      "intensity_0_5": 4,
+      "triggers": ["ritual_context", "visual_form"],
+      "notes": "Subjektiv berichteter 'Energieschub' synchron zu kollektivem Lichtmoment; Kopplung von Stimmung und Ritualzeit."
+    },
+    {
+      "event_id": "RE-0014",
+      "excerpt": "ich habe mehrere Schlangen gesehen",
+      "layer": ["R1", "R2"],
+      "channel": ["body", "space"],
+      "valence": ["mixed"],
+      "intensity_0_5": 3,
+      "triggers": ["encounter"],
+      "notes": "Naturbegegnung (Risiko/Respekt) im barfußen Unterwegssein; erhöht Wachheit/Präsenz."
+    },
+    {
+      "event_id": "RE-0015",
+      "excerpt": "nach ein, zwei Stunden hat es in dir drin klack gemacht.",
+      "layer": ["R2", "R3"],
+      "channel": ["cognition", "emotion"],
+      "valence": ["positive"],
+      "intensity_0_5": 4,
+      "triggers": ["silence", "encounter"],
+      "notes": "Lernen über stilles Zusammensein (Ramana-Rahmung); 'Klick'-Moment als innere Reorganisation."
+    },
+    {
+      "event_id": "RE-0016",
+      "excerpt": "in diese typischen Guru-Muster reingefallen.",
+      "layer": ["R3"],
+      "channel": ["social", "cognition"],
+      "valence": ["mixed"],
+      "intensity_0_5": 3,
+      "triggers": ["story_context"],
+      "notes": "Reflexion über Projektion/Followership-Dynamiken; Warnung vor Personenkult trotz Ortsfokus."
+    },
+    {
+      "event_id": "RE-0017",
+      "excerpt": "Aber die Spirits waren da.",
+      "layer": ["R4", "R5"],
+      "channel": ["symbolic", "cognition"],
+      "valence": ["unknown"],
+      "intensity_0_5": 3,
+      "triggers": ["other"],
+      "notes": "Nicht-empirisch überprüfbare Entitäten werden als anwesend gesetzt (Sprecherstatement; keine ontologische Validierung)."
+    },
+    {
+      "event_id": "RE-0018",
+      "excerpt": "Plötzlich fliegt mir ein Insekt unter meinen Wickelrock und sticht mich ins Knie.",
+      "layer": ["R1", "R2"],
+      "channel": ["body", "emotion"],
+      "valence": ["negative"],
+      "intensity_0_5": 4,
+      "triggers": ["encounter"],
+      "notes": "Körperlicher Schmerz/Schwellung als abrupter Bruch im intendierten 'heiligen' Moment."
+    },
+    {
+      "event_id": "RE-0019",
+      "excerpt": "Knie ist auch ein Symbol für Demut.",
+      "layer": ["R3", "R4"],
+      "channel": ["cognition", "symbolic"],
+      "valence": ["mixed"],
+      "intensity_0_5": 3,
+      "triggers": ["other"],
+      "notes": "Somatisches Ereignis wird symbolisch gedeutet (Demut); Deutung bleibt Interpretation des Sprechers."
+    },
+    {
+      "event_id": "RE-0020",
+      "excerpt": "Ohne Gitarre. Ich bin da ganz bescheiden hingegangen.",
+      "layer": ["R2", "R3"],
+      "channel": ["emotion", "symbolic"],
+      "valence": ["positive"],
+      "intensity_0_5": 3,
+      "triggers": ["ritual_context", "encounter"],
+      "notes": "Verhaltenskorrektur (Demut/Zurücknahme) nach Konfliktmoment; Rückkehr mit anderer Haltung."
+    },
+    {
+      "event_id": "RE-0021",
+      "excerpt": "Du konntest zuschauen, wie das weggeht.",
+      "layer": ["R1", "R3"],
+      "channel": ["body", "cognition"],
+      "valence": ["positive"],
+      "intensity_0_5": 4,
+      "triggers": ["other"],
+      "notes": "Perzipierte körperliche Veränderung (Schwellung geht zurück); Kausalität bleibt offen (nur Bericht)."
+    },
+    {
+      "event_id": "RE-0022",
+      "excerpt": "stundenlang nur den Berg so anzuschauen.",
+      "layer": ["R1", "R2"],
+      "channel": ["time", "space"],
+      "valence": ["positive"],
+      "intensity_0_5": 3,
+      "triggers": ["visual_form", "silence"],
+      "notes": "Langanhaltende Aufmerksamkeit/Kontemplation; Ort als stabiler Aufmerksamkeitsanker."
+    },
+    {
+      "event_id": "RE-0023",
+      "excerpt": "Was mir der Berg genommen hat, ist die Last der Fragen.",
+      "layer": ["R2", "R3"],
+      "channel": ["cognition", "emotion"],
+      "valence": ["positive"],
+      "intensity_0_5": 4,
+      "triggers": ["other"],
+      "notes": "Shift von 'Antwortzwang' zu Tragfähigkeit von Ungewissheit; entlastende Reframing-Wirkung (Selbstbericht)."
+    },
+    {
+      "event_id": "RE-0024",
+      "excerpt": "Dieser Kraftort ist ein Spiegel für unser Herz.",
+      "layer": ["R4", "R5"],
+      "channel": ["symbolic", "cognition"],
+      "valence": ["positive"],
+      "intensity_0_5": 4,
+      "triggers": ["other"],
+      "notes": "Internalisierung: Ort dient als Spiegelmetapher für inneren Zustand (Deutung; keine Objektbehauptung)."
+    },
+    {
+      "event_id": "RE-0025",
+      "excerpt": "Oh Arunachala, du heilst die Menschen von dem Ego, die im Herzen zu dir meditieren.",
+      "layer": ["R4", "R5"],
+      "channel": ["symbolic", "cognition"],
+      "valence": ["positive"],
+      "intensity_0_5": 4,
+      "triggers": ["story_context", "name_sound"],
+      "notes": "Hymnen-Zitat (frei nach Ramana, laut Sprecher); normativer Heilungsclaim wird nur als Aussage dokumentiert."
+    }
+  ],
+  "aggregate_profile": {
+    "dominant_channels": ["cognition", "emotion", "symbolic", "space", "social"],
+    "dominant_triggers": ["ritual_context", "encounter", "visual_form", "story_context", "other"],
+    "notable_thresholds": [
+      "Desorientierung/Abwertung → affektive Öffnung (Tränen/Leuchten)",
+      "Ritual-Masse (Pradakshina/Dipam) → Ich-Verdünnung/Entgrenzung (Sprecherbeschreibung)",
+      "Körperereignis (Knie) → symbolische Deutung (Demut) → Verhaltenskorrektur"
+    ],
+    "stability_notes": "Über mehrere Episoden stabil: Ego-Thema (Auflösung/Demut), Ort als Spiegel/Lehrinstanz (Sprecherrahmung), starke Kopplung von Resonanz an Ritual- und Begegnungskontexte."
+  }
+}

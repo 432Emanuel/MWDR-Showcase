@@ -1,0 +1,179 @@
+{
+  "type": "mgk_sitecard",
+  "id": "PA-SITE-CITY-OF-LONDON-001",
+  "title": "City of London",
+  "geo": {
+    "country": "Vereinigtes Königreich",
+    "locality": "London",
+    "place_type": "spezialdistrikt/finanzzentrum",
+    "geo_notes": "Boundary/Verwaltungsstatus/Flächendaten: TODO (Quellen eintragen)."
+  },
+  "type_ids": ["PA-T02"],
+  "summary": "Finanzielle Sonderzone mit historisch gewachsener Governance, hoher Institutionen-/Netzwerkdichte und starker Kopplung an unsichtbare Architektur (Verträge, Standards, Daten).",
+  "implementation_state": {
+    "stage": "operational",
+    "notes": "Bestehender Distrikt/Finanzcluster im Betrieb; konkrete Governance- und Rechtsdifferenz-Belege sind in dieser Seed-Sitecard als TODO markiert."
+  },
+  "status_claims": [
+    {
+      "claim": "Die City of London ist ein abgegrenzter Distrikt im Zentrum Londons mit eigener kommunaler Governance-Struktur (zu belegen).",
+      "epistemic_label": "fact",
+      "confidence": 0.75,
+      "sources": ["TODO: Statut/Verwaltung/Boundary belegen."],
+      "notes": "Fakt-Claim mit fehlender Quellenhülle; genaue Kompetenzen/Statut nachtragen."
+    },
+    {
+      "claim": "Die Zone fungiert als finanziell-ökonomisches Interface mit überregionaler/globaler Hebelwirkung (Indikatoren/Belege: TODO).",
+      "epistemic_label": "inference",
+      "confidence": 0.6,
+      "sources": ["TODO"],
+      "notes": "Hebelwirkung ist plausibel, aber als Indikatoren-Set zu operationalisieren (Netzwerke, Märkte, Standards)."
+    },
+    {
+      "claim": "Architekturcode ist primär cluster/bürokratie + symbolische Schwellen; zentrale Macht liegt in Netzwerken/Regeln (unsichtbare Architektur).",
+      "epistemic_label": "inference",
+      "confidence": 0.55,
+      "sources": ["TODO"],
+      "notes": "Strukturhypothese: operative Macht über Regeln/Standards; räumliche Marker/Institutionencluster sind zu belegen."
+    },
+    {
+      "claim": "Zugangsregime ist im Straßenraum überwiegend offen, während Kernfunktionen über Gebäudezugang, Compliance und Mitgliedschaft reguliert werden.",
+      "epistemic_label": "inference",
+      "confidence": 0.6,
+      "sources": ["TODO"],
+      "notes": "Zugang als Regel-/Mitgliedschaftslogik modelliert; konkrete Mechaniken (Ausweise, Compliance, Mandate) benötigen Belege."
+    }
+  ],
+  "architecture_power_interface": [
+    "Abgrenzung als mental/administrativ lesbare Zone (Boundary-Marker/Schwellen als Interface).",
+    "Clusterbildung: räumliche Nähe von Finanz- und Rechtsdienstleistungen erhöht Transaktionsgeschwindigkeit.",
+    "Bürokratiearchitektur (Bürotürme/Verwaltungsgebäude) als operative Machtmaschine statt Monumentalritual.",
+    "Symbolische Räume (Zeremonien, Amtsketten, Repräsentationsorte) stabilisieren Sonderstatus-Narrative.",
+    "Infrastruktur-Dichte (ÖPNV/Telekom) ermöglicht hohe Frequenz und Echtzeit-Entscheidung (Belege: TODO).",
+    "Gebäudezugang ist ein Governance-Filter (Ausweise, Kontrollen, Mitgliedschaft, Mandate).",
+    "Gerichtsbarkeits-/Regelräume sind oft unsichtbar: Verträge, Standards, Compliance-Prozeduren als Architektur.",
+    "Perimeter entsteht weniger durch Mauern als durch Normen (KYC/AML/Regulatorik) – Zugang über Regelkonformität.",
+    "Öffentliche Offenheit kaschiert funktionale Exklusivität (wer handeln/entscheiden darf).",
+    "Räumliche Verdichtung erzeugt Netzwerkeffekte: informelle Treffen/kurze Wege als Machtmodus (Indikatoren: TODO)."
+  ],
+  "axes_scoring": [
+    {
+      "axis_id": "AX-001",
+      "value": 3,
+      "rationale": "Weitreichende Autonomie/Governance-Spezifika innerhalb eines Staates (Details/Belege: TODO)."
+    },
+    {
+      "axis_id": "AX-002",
+      "value": 3,
+      "rationale": "Teilweise Sonderregime/Regel-Asymmetrien werden häufig behauptet; konkrete Rechtsdifferenzen müssen belegt werden."
+    },
+    {
+      "axis_id": "AX-003",
+      "value": 2,
+      "rationale": "Im Stadtraum offen; Zugang zu Kernfunktionen läuft über selektive Institutionen-/Gebäudelogik."
+    },
+    {
+      "axis_id": "AX-004",
+      "value": "finanziell/ökonomisch",
+      "rationale": "Dominanter Machtmodus über Kapital, Marktinfrastruktur und Regelsetzung im Finanzbereich."
+    },
+    {
+      "axis_id": "AX-005",
+      "value": [
+        "cluster/bürokratie",
+        "symbolische schwellen (tore/plätze)",
+        "unsichtbare architektur (netzwerke/datenzentren)"
+      ],
+      "rationale": "Operative Cluster + symbolische Schwellen + Netzwerke/Regeln als primärer Architekturcode."
+    },
+    {
+      "axis_id": "AX-006",
+      "value": 5,
+      "rationale": "Als Finanzknoten wird globale Hebelwirkung nahegelegt (zu belegen: Markt-/Netzwerkindikatoren)."
+    }
+  ],
+  "actors": [
+    {
+      "actor": "Kommunale Governance (City Corporation o. ä.)",
+      "role": "verwaltung/sonderstatus",
+      "epistemic_label": "inference",
+      "sources": ["TODO: Governance-Details belegen."]
+    },
+    {
+      "actor": "Finanzinstitutionen (Banken, Börsen, Fonds, Versicherer)",
+      "role": "kapital/marktinfrastruktur",
+      "epistemic_label": "inference",
+      "sources": ["TODO"]
+    },
+    {
+      "actor": "Regulatoren/Standardsetter (staatlich/branchenintern)",
+      "role": "regelsetzung/compliance",
+      "epistemic_label": "inference",
+      "sources": ["TODO"]
+    }
+  ],
+  "narratives": [
+    {
+      "narrative": "Neutralität/Professionalität (Markt als Regelraum)",
+      "epistemic_label": "inference",
+      "sources": ["TODO"]
+    },
+    {
+      "narrative": "Tradition/Privilegien (historische Kontinuität als Stabilitätsargument)",
+      "epistemic_label": "inference",
+      "sources": ["TODO"]
+    },
+    {
+      "narrative": "Effizienz/Netzwerkdichte (kurze Wege, schnelle Deals)",
+      "epistemic_label": "inference",
+      "sources": ["TODO"]
+    }
+  ],
+  "risks_and_controversies": {
+    "documented": [],
+    "hypotheses": [
+      {
+        "claim": "Regel-Asymmetrien können Externalitäten erzeugen (Steuer-/Transparenzfragen) – erst belegen, dann modellieren.",
+        "epistemic_label": "hypothesis",
+        "sources": ["TODO: belastbare Reports/Regeltexte ergänzen."]
+      },
+      {
+        "claim": "Unsichtbare Architektur (Standards/Compliance) kann demokratische Lesbarkeit reduzieren (Prüfpfad).",
+        "epistemic_label": "hypothesis",
+        "sources": ["TODO"]
+      }
+    ],
+    "notes": "Ohne Quellenaufnahme bleiben Kontroversen Hypothesen; keine impliziten Schuldzuweisungen."
+  },
+  "timeline": [
+    {
+      "label": "Historische Sonderrechte/Charter-Lagen",
+      "date_or_period": "TODO",
+      "epistemic_label": "fact",
+      "sources": ["TODO: Charter/Statuten belegen."],
+      "notes": "Keine Datumsbehauptungen ohne Quelle."
+    },
+    {
+      "label": "Moderne Finanzcluster-Expansion",
+      "date_or_period": "TODO",
+      "epistemic_label": "inference",
+      "sources": ["TODO"],
+      "notes": "Wachstum/Institutionen-Shift mit Indikatoren belegen."
+    }
+  ],
+  "comparisons": [
+    {
+      "to": "Liechtenstein",
+      "comparison": "Ähnlich: Finanzielle Hebelwirkung über Rechts-/Regelkonfiguration; Unterschied: Stadt-Distrikt innerhalb eines Staates vs. eigener Kleinstaat (zu belegen).",
+      "epistemic_label": "inference",
+      "sources": ["TODO"]
+    },
+    {
+      "to": "Shenzhen (historisch, PA-T05 Seed)",
+      "comparison": "Ähnlich: Sonderregime als Entwicklungs-/Wachstumshebel; Unterschied: Finanzknoten vs. industrie-/innovationsgetriebene Zone.",
+      "epistemic_label": "inference",
+      "sources": ["TODO"]
+    }
+  ],
+  "sources": ["TODO: Statuten/Governance-Dokumente, Boundary-Karten, Finanznetzwerk-Indikatoren."]
+}

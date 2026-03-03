@@ -1,0 +1,14 @@
+{
+  "id": "SRC-MALTA-0009",
+  "place_code": "MALTA",
+  "created_at": "2026-02-23",
+  "bundle_ref_nums": [],
+  "title": "Ancient Malta: Hagar Qim and Mnajdra",
+  "author": "Unbekannt (Video-Dokumentation)",
+  "date_or_year": "2022",
+  "medium": "YouTube / Videobericht",
+  "url": "https://www.youtube.com/watch?v=UQmk8fQVt6Y",
+  "source_type": "video_report",
+  "reliability_tier": "B",
+  "epistemic_notes": "DP-002: treat metaphysical/causal claims as claims; encode as frames, not facts."
+}

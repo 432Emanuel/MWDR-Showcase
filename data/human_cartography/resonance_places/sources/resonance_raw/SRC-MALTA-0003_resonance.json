@@ -1,0 +1,218 @@
+{
+  "id": "SRC-MALTA-0003-RESONANCE",
+  "source_id": "SRC-MALTA-0003",
+  "place_focus": {
+    "primary_place": "Megalithic Temples Malta",
+    "place_type": "megalithic_temple_complex",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "resonance_events": [
+    {
+      "event_id": "RE-0001",
+      "excerpt": "I've seen it described as an 'over-curated experience,' and there is a sense that it is all a little too dramatic and... too restrictive.",
+      "layer": [],
+      "channel": [
+        "social"
+      ],
+      "valence": [
+        "negative"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "social_control_barrier"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0002",
+      "excerpt": "The climax of the tour is seeing the room called the 'Holy of Holies.' It is, simply, breathtaking.",
+      "layer": [
+        "R1",
+        "R2"
+      ],
+      "channel": [
+        "body",
+        "emotion"
+      ],
+      "valence": [
+        "positive"
+      ],
+      "intensity_0_5": 4,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0003",
+      "excerpt": "The chanting enhanced by the acoustics... would have been quite otherworldly when combined with... red swirls rotating and flickering in the light of the flaming…",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 4,
+      "triggers": [
+        "ritual_context",
+        "visual_form"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0004",
+      "excerpt": "Persönlicher Bericht über den Abstieg in die drei Ebenen des Hypogäums.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0005",
+      "excerpt": "Kritische Reflexion über die heutige touristische Inszenierung und die strikten Besuchsregeln.",
+      "layer": [],
+      "channel": [
+        "social"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0006",
+      "excerpt": "Hervorhebung der visuellen Wirkung der Ocker-Malereien unter künstlichem Licht.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "visual_form"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0007",
+      "excerpt": "Diskussion über die mysteriösen \"elongated skulls\" (langgestreckte Schädel), die am Standort gefunden wurden.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0008",
+      "excerpt": "Beschreibung der physischen Anstrengung (65 Stufen) und der emotionalen Belohnung am tiefsten Punkt.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "body"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0009",
+      "excerpt": "Exploring the Hypogeum of Malta",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "material"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "architectural_form"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "title_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0010",
+      "excerpt": "Reisebericht/Blog",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "raw_perception",
+      "notes": "medium_frame; DP-002: treat as reported/subjective unless measured."
+    }
+  ],
+  "aggregate_profile": {
+    "dominant_channels": [
+      "cognition",
+      "body",
+      "social",
+      "emotion",
+      "material"
+    ],
+    "dominant_triggers": [
+      "other",
+      "visual_form",
+      "architectural_form",
+      "ritual_context",
+      "social_control_barrier"
+    ],
+    "stability_notes": "Auto-extracted from bundle: mix of quotes, summaries and (where needed) bundle-level synthesis lines; DP-002 applied."
+  }
+}

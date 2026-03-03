@@ -1,0 +1,189 @@
+{
+  "id": "TZ-PLACE-DELPHI-0001-STRUCTURES",
+  "source_id": "TZ-PLACE-DELPHI-FRANK-STONER-ENGELMAYER-0001",
+  "marker_candidates": [
+    {
+      "marker_id": "MARK-SENSORY-SMELL-FUMES-ANCHOR-001",
+      "type": "body",
+      "definition": "Geruch/Dampf-Wahrnehmung dient als sensorischer Anker, der Zeitdichte- und Orakelrahmen verstärkt.",
+      "evidence": [
+        { "excerpt": "ich habe diese Dämpfe gerochen.", "event_ref": "RE-0007" }
+      ],
+      "risk_notes": "Ontologischer Drift: Geruch wird leicht als Beweis für reale 'Erd-Dämpfe' oder Orakelmechanik gelesen. MGK hält es als Wahrnehmungsmarker (sensory_smell), ohne Ursache zu behaupten.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: sensory_anomaly_attribution)"
+    },
+    {
+      "marker_id": "MARK-TEMPORAL-THINNING-TIME-BEAM-001",
+      "type": "temporal",
+      "definition": "Temporal-Thinning: Das Erleben wird als \"zurückgebeamt\" gerahmt (Zeitverschiebung als Resonanzform).",
+      "evidence": [
+        { "excerpt": "hat es mich echt in der Zeit zurückgebeamt", "event_ref": "RE-0006" }
+      ],
+      "risk_notes": "Explizite Drift-Warnung: nicht als wörtliche Zeitreise interpretieren. Als subjektive Zeitwahrnehmung/Imagination modellieren.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: temporal_thinning)"
+    },
+    {
+      "marker_id": "MARK-ENTITY-COMMUNICATION-ASSERTION-001",
+      "type": "authority",
+      "definition": "Kommunikation mit unklarer Instanz wird behauptet und erzeugt Authority-Frame (\"Orakel\" als Kontaktkanal).",
+      "evidence": [
+        { "excerpt": "ich habe auch mit irgendetwas kommuniziert", "event_ref": "RE-0008" }
+      ],
+      "risk_notes": "Explizite Drift-Warnung: \"Kommunikation\" darf nicht als verifizierter Entitätskontakt behandelt werden; nur als Sprecher-/Guest-Statement (authority_projection).",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Flag: unverifiable_entity_contact_claim)"
+    },
+    {
+      "marker_id": "MARK-ORACLE-AUTHORITY-TRANSLATION-APOLLON-001",
+      "type": "authority",
+      "definition": "Orakel wird als Übersetzungsapparat einer Autorität (Apollon) gerahmt: Medium → Botschaft → Publikum.",
+      "evidence": [
+        { "excerpt": "mit Apollon, dem Gott Apollon, sprechen.", "event_ref": "RE-0003" }
+      ],
+      "risk_notes": "Explizite Drift-Warnung: Mythos darf nicht als historische Kommunikationsbeschreibung gelesen werden. MGK speichert dies als mythic_context + authority_projection.",
+      "mgk_usage": "data/lenses/meta_patterns/ (Pattern: authority_translation_pipeline)"
+    },
+    {
+      "marker_id": "MARK-MYTHIC-CONFLICT-FEMININE-MASCULINE-OVERLAY-001",
+      "type": "symbolic",
+      "definition": "Mythische Kampfgeschichte (Apollon vs. Schlange/Gaia) wird als Strukturmodell für Übernahme und Kontrolle weiblicher Erdenergie genutzt.",
+      "evidence": [
+        { "excerpt": "Apollon hat diese Schlange getötet.", "event_ref": "RE-0012" }
+      ],
+      "risk_notes": "Explizite Drift-Warnung: Nicht Mythos→Geschichte umdeuten. Im MGK-Kontext ist dies eine interpretative Linse (female_vs_male_principle), keine Faktchronik.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: mythic_conflict_as_control_model)"
+    },
+    {
+      "marker_id": "MARK-CENTER-OF-WORLD-PROJECTION-OMPHALOS-001",
+      "type": "symbolic",
+      "definition": "Center-of-world-Projektion verdichtet Ortssinn: Delphi wird als Nabel/Mittelpunkt markiert (Omphalos).",
+      "evidence": [
+        { "excerpt": "Der Nabel der Welt.", "event_ref": "RE-0013" }
+      ],
+      "risk_notes": "Risiko: Universalitätsanspruch wird ontologisch gelesen (\"objektiver Mittelpunkt\"). MGK führt es als place_center_symbol-Projektion.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: center_of_world_projection)"
+    },
+    {
+      "marker_id": "MARK-GRID-READING-OF-OMPHALOS-001",
+      "type": "projection",
+      "definition": "Ein Symbolobjekt (Omphalos) wird als Diagramm eines globalen Kontrollgitters gelesen (Grid-Interpretation).",
+      "evidence": [
+        { "excerpt": "ist ein Gitter. Ein Grid.", "event_ref": "RE-0014" }
+      ],
+      "risk_notes": "Explizite Drift-Warnung: \"Grid\"/\"Energiegitter\" darf nicht als Tatsache übernommen werden. Als semantischer Frame mit hoher Projektionsdichte modellieren.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Flag: grid_frame_high_projection)"
+    },
+    {
+      "marker_id": "MARK-MATRIX-FRAME-GEOMETRY-001",
+      "type": "projection",
+      "definition": "Geometrie/Geodäsie wird in einen Matrix-Frame überführt: Vermessung/Ordnung ↔ Gitter ↔ Lebenslenkung (Sprecherlogik).",
+      "evidence": [
+        { "excerpt": "das ist die Matrix.", "event_ref": "RE-0016" }
+      ],
+      "risk_notes": "Explizite Drift-Warnung: Matrix/\"Programm\" nicht als objektive Weltstruktur behandeln. MGK führt es als Deutungsrahmen, nicht als Messbefund.",
+      "mgk_usage": "data/lenses/meta_patterns/ (Pattern: matrix_frame_from_measurement_metaphor)"
+    },
+    {
+      "marker_id": "MARK-SOCIAL-CONTROL-BARRIER-UNESCO-SECURITY-001",
+      "type": "social",
+      "definition": "Zäune, Regeln, Security und Platzverweise formen das Erleben als Access-Control-Overlay über einem Resonanzort.",
+      "evidence": [
+        { "excerpt": "Großer Zaun drumherum, UNESCO Weltkulturerbe steht drauf", "event_ref": "RE-0004" },
+        { "excerpt": "gelbe Karte, du darfst dich nicht falsch bewegen", "event_ref": "RE-0022" }
+      ],
+      "risk_notes": "Explizite Drift-Warnung: Keine externen UNESCO-/Huxley-Agenden importieren. Nur das im Transcript Gesagte als Sprecherrahmen dokumentieren; keine Faktprüfung/Bestätigung leisten.",
+      "mgk_usage": "data/lenses/meta_patterns/ (Pattern: social_access_control_overlay)"
+    },
+    {
+      "marker_id": "MARK-EMOTION-AS-ONTOLOGY-PROXY-RISK-001",
+      "type": "body",
+      "definition": "Starke Emotion (Tränen/Wut/Trauer) wird als Indikator für 'Tiefe Wahrheit' und Ortsstatus genutzt.",
+      "evidence": [
+        { "excerpt": "viele Tränen vergossen", "event_ref": "RE-0017" }
+      ],
+      "risk_notes": "Ontologischer Drift: Emotion wird als Beweis für metaphysische Aussagen missbraucht. MGK trennt Roh-Affekt (R1/R2) von Deutung (R4/R5).",
+      "mgk_usage": "data/human_cartography/overlays/resonance_strands/ (Strand: affect_as_truth_proxy_risk)"
+    },
+    {
+      "marker_id": "MARK-MOON-AS-PATTERN-ENFORCER-CLAIM-001",
+      "type": "projection",
+      "definition": "Mond wird als Muster-/Gitter-Enforcer gerahmt (insb. in Bezug auf weibliche Rhythmen).",
+      "evidence": [
+        { "excerpt": "zwingt uns in ein Muster, in ein Schema, in ein Gitter.", "event_ref": "RE-0019" },
+        { "excerpt": "Der Mond könnte vielleicht tatsächlich künstlich sein", "event_ref": "RE-0020" }
+      ],
+      "risk_notes": "Explizite Drift-Warnung: kosmische Kontrollclaims nicht als Fakt übernehmen (keine Astronomie/Physik aus dem Web ergänzen). Als Spekulations- und Mythos-Frame codieren.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Flag: cosmic_control_claim)"
+    },
+    {
+      "marker_id": "MARK-ETYMLOGY-WOMB-ENTRY-FRAME-001",
+      "type": "symbolic",
+      "definition": "Etymologie + Landschaft (Felsspalten/Höhlen) werden in ein Körperbild übersetzt (Delphi/Muttermund → Eintritt in die Erde).",
+      "evidence": [
+        { "excerpt": "Altgriechisch für Muttermund.", "event_ref": "RE-0021" }
+      ],
+      "risk_notes": "Risiko: Etymologie wird als Beweis für ursprüngliche Intention/Universalmetaphysik genutzt. MGK hält es als symbolische Lesart, nicht als Herkunftsnachweis.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: etymology_to_symbolic_bodymap)"
+    },
+    {
+      "marker_id": "MARK-RITUAL-PREPARATION-CLEANSE-001",
+      "type": "symbolic",
+      "definition": "Ritualvorbereitung (Waschung/Reinigung) dient als Schwellenmechanik vor Autoritätshandlung (Orakelspruch).",
+      "evidence": [
+        { "excerpt": "eine Waschung, eine Reinigung", "event_ref": "RE-0023" }
+      ],
+      "risk_notes": "Nicht aus Ritualbeschreibung Wirkbehauptung ableiten (\"Reinigung bewirkt X\"). MGK protokolliert nur die Struktur (ritual_context).",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: purification_threshold_step)"
+    },
+    {
+      "marker_id": "MARK-PAN-PERSONIFICATION-OF-NATURE-BARRIER-001",
+      "type": "projection",
+      "definition": "Naturereignis (Wegsperre/Steinschlag) wird personalisiert (Pan als handelnder Akteur) und erzeugt Ortsagency.",
+      "evidence": [
+        { "excerpt": "Pan hat keinen Bock mehr.", "event_ref": "RE-0025" }
+      ],
+      "risk_notes": "Ontologischer Drift: Landschaft wird als bewusste Entität behandelt. MGK speichert dies als Projektion/Metapher, nicht als kausale Aussage über Natur.",
+      "mgk_usage": "data/lenses/meta_patterns/ (Pattern: entitization_of_nature_via_myth)"
+    },
+    {
+      "marker_id": "MARK-INTUITION-VS-CHANNELING-FILTER-001",
+      "type": "authority",
+      "definition": "Methodischer Filter: Intuition/Spiegel wird vom Channeling (Entitätsautorität) abgegrenzt, um Gatekeeper-Risiken zu reduzieren.",
+      "evidence": [
+        { "excerpt": "Du bist kein Channel", "event_ref": "RE-0026" }
+      ],
+      "risk_notes": "Risiko: neue Dogmatik (anti-channel absolut) oder falsche Sicherheit. MGK führt die Unterscheidung als Hygiene-Mechanik, nicht als Wahrheitsgarantie.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Module: epistemic_hygiene_filters)"
+    },
+    {
+      "marker_id": "MARK-SELF-KNOWLEDGE-INSCRIPTION-AS-ANTI-GATEKEEPER-001",
+      "type": "identity",
+      "definition": "\"Erkenne dich selbst\" wird als Kernregel gesetzt, um Projektionen, Channeling-Claims und externe Steuerung zu unterscheiden.",
+      "evidence": [
+        { "excerpt": "der erste Spruch war Erkenne dich selbst.", "event_ref": "RE-0027" }
+      ],
+      "risk_notes": "Risiko: Normativ-Überhöhung (als universelle Lösung). MGK nutzt es als Strukturmarker (self-knowledge activation), nicht als ontologische Garantie.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: self_knowledge_as_filter)"
+    },
+    {
+      "marker_id": "MARK-PLACE-AS-MIRROR-SELF-KNOWLEDGE-ACTIVATION-001",
+      "type": "symbolic",
+      "definition": "Kraftort wird als Spiegelinstrument beschrieben: Ort → Reflexion → Selbsterkenntnis → Lebensausrichtung.",
+      "evidence": [
+        { "excerpt": "diese Kraftorte sind ein Spiegel. Ein mystischer Spiegel", "event_ref": "RE-0028" }
+      ],
+      "risk_notes": "Ontologischer Drift: \"mystischer Spiegel\" als objektive Eigenschaft des Orts behandeln. MGK führt es als Metapher/Frame für Selbstreflexion.",
+      "mgk_usage": "data/human_cartography/overlays/resonance_strands/ (Strand: place_as_mirror_activation)"
+    },
+    {
+      "marker_id": "MARK-AUTHORITY-TRANSFER-TO-PERSON-PYTHIA-001",
+      "type": "authority",
+      "definition": "Orakelrahmen wird modern verpackt (\"Dienste\"/Treffpunkt) und als Autoritäts-/Identitätsübertragung an eine Person gekoppelt (\"Du bist die Pythia\").",
+      "evidence": [
+        { "excerpt": "Die Dienste der Pythia, Treffpunkt Delphi.", "event_ref": "RE-0029" },
+        { "excerpt": "Du bist die Pythia.", "event_ref": "RE-0030" }
+      ],
+      "risk_notes": "Explizite Drift-Warnung: Service-Paket + Rollenetikett kann Autorität auslagern und Ontologie erzeugen (\"ist\" statt \"wirkt wie\"). MGK führt es als social/authority frame ohne Wirksamkeitsannahmen.",
+      "mgk_usage": "data/lenses/meta_patterns/ (Pattern: spiritual_service_packaging) + data/lenses/pre_narrative_resonance/ (Pattern: authority_transfer_to_person)"
+    }
+  ]
+}

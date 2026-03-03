@@ -1,0 +1,179 @@
+{
+  "id": "TZ-PLACE-MALTA-0001-STRUCTURES",
+  "source_id": "TZ-PLACE-MALTA-TEMPLE-FRANK-STONER-ENGELMAYER-0001",
+  "marker_candidates": [
+    {
+      "marker_id": "MARK-MATERIAL-MASS-TOUCH-AMPLIFIER-001",
+      "type": "material",
+      "definition": "Taktile Interaktion mit Materialmasse (Stein/Megalith) wird als Resonanztechnik genutzt und verstärkt Bedeutungserleben.",
+      "evidence": [
+        {
+          "excerpt": "Hand drauf und so. Fühle einfach den Felsen",
+          "event_ref": "RE-0013"
+        }
+      ],
+      "risk_notes": "Ontologischer Drift: aus 'taktilem Fokus' wird schnell 'der Stein sendet Energie/bewusste Wirkung'. MGK sollte nur Praxis + Erleben modellieren, nicht Material-Agency behaupten.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Mechanik: tactile_focus_as_resonance_trigger)"
+    },
+    {
+      "marker_id": "MARK-SILENCE-AS-RESONANCE-MEDIUM-001",
+      "type": "spatial",
+      "definition": "Stille/Leere fungiert als Verstärker: weniger Störung → mehr Atmosphärenaufnahme → erhöhte Resonanz.",
+      "evidence": [
+        {
+          "excerpt": "diese Stille, diese Atmosphäre von dem Tempel",
+          "event_ref": "RE-0009"
+        }
+      ],
+      "risk_notes": "Kann in Essentialisierung kippen ('Stille beweist Heiligkeit'); deshalb als Aufmerksamkeitsbedingung (environmental quiet) führen.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: silence_amplifier)"
+    },
+    {
+      "marker_id": "MARK-ACCESS-GATING-INTENSIFIER-001",
+      "type": "spatial",
+      "definition": "Kuratiertes Zugangssystem (Absperrungen) und dessen Überschreitung steigern Authentizitäts- und Intensitätserleben.",
+      "evidence": [
+        {
+          "excerpt": "hinter die Absperrung geführt hat",
+          "event_ref": "RE-0010"
+        }
+      ],
+      "risk_notes": "Gefahr: aus 'privilegiertem Zugang' wird 'geheimes Wissen/Einweihung' ontologisiert; MGK sollte Gating als Wahrnehmungs- und Statusmechanik codieren.",
+      "mgk_usage": "data/lenses/meta_patterns/ (Kandidat: access_gating_resonance_boost)"
+    },
+    {
+      "marker_id": "MARK-COMMAND-RITUALIZATION-001",
+      "type": "identity",
+      "definition": "Kurzzeitige Autoritätsübernahme (Befehl/Anweisung) ritualisiert Verhalten und erzeugt Compliance bei hoher Orts-Offenheit.",
+      "evidence": [
+        {
+          "excerpt": "make contact with this rock",
+          "event_ref": "RE-0011"
+        }
+      ],
+      "risk_notes": "Ontologischer Drift: Autoritätsmoment wird leicht als 'Ort wählt aus/führt' interpretiert; MGK trennt soziale Dynamik (Anweisung) von metaphysischer Deutung.",
+      "mgk_usage": "modules/ (Kandidat: authority_capture_vectors) oder data/lenses/pre_narrative_resonance/"
+    },
+    {
+      "marker_id": "MARK-TIME-COLLAPSE-FLASHBACK-001",
+      "type": "temporal",
+      "definition": "Zeitdichte/Temporal-Thinning: Berührung + Setting lösen subjektive Zeit-Kompression aus (Gefühl von Vergangenheit im Jetzt).",
+      "evidence": [
+        {
+          "excerpt": "Flash in die Vergangenheit",
+          "event_ref": "RE-0014"
+        }
+      ],
+      "risk_notes": "Explizite Drift-Warnung: nicht als wörtliche Zeitreise behandeln. Als Erlebnisbericht (imagination/association) modellieren, ohne ontologische Validierung.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: temporal_thinning_flashback)"
+    },
+    {
+      "marker_id": "MARK-RITUAL-IMAGINATION-FERTILITY-FRAME-001",
+      "type": "projection",
+      "definition": "Ritual-Imaginationsaktivierung: Materialform + Symbolik triggern Fruchtbarkeits-/Lebensfeier-Frame (Sinnangebot).",
+      "evidence": [
+        {
+          "excerpt": "ein Fruchtbarkeitstempel",
+          "event_ref": "RE-0016"
+        }
+      ],
+      "risk_notes": "Ontologischer Drift: aus Deutung wird schnell 'so war es historisch'. MGK führt es als Frame (ritual_imagination), nicht als archäologischen Befund.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: fertility_frame_activation)"
+    },
+    {
+      "marker_id": "MARK-HISTORICAL-PRACTICE-ASSERTION-CHILDREN-001",
+      "type": "projection",
+      "definition": "Konkrete Praxisbehauptung (Kinderzeugung im Tempel) stabilisiert den Fruchtbarkeitsframe und erhöht ontologische Bindung.",
+      "evidence": [
+        {
+          "excerpt": "dort wurden in dem Tempel Kinder gezeugt",
+          "event_ref": "RE-0017"
+        }
+      ],
+      "risk_notes": "Explizite Drift-Warnung: nicht als historische Tatsache übernehmen. Als Narrativ-Claim mit hoher Projektionsdichte labeln.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Flag: high_projection_historical_practice_claim)"
+    },
+    {
+      "marker_id": "MARK-BIOGRAPHICAL-ANCHORING-VALIDATION-001",
+      "type": "identity",
+      "definition": "Biografische Rückbindung: persönliches Ereignis wird als Validierung und dauerhafter Anker für Ortsbedeutung genutzt.",
+      "evidence": [
+        {
+          "excerpt": "an dem Tag haben wir dann ... unser Kind gezeugt",
+          "event_ref": "RE-0018"
+        }
+      ],
+      "risk_notes": "Risiko: Bestätigungslogik ('weil Ereignis, muss Ort wirken'); MGK hält es als Biografie-Overlay, ohne Wirksamkeitsbehauptung.",
+      "mgk_usage": "data/human_cartography/overlays/resonance_strands/ (Strand: biographical_anchor_to_place)"
+    },
+    {
+      "marker_id": "MARK-SYMBOLIC-MINIMALISM-SPIRAL-001",
+      "type": "projection",
+      "definition": "Symbolischer Minimal-Anker (Spirale) erlaubt hohe Anschlussfähigkeit und cross-kulturelle Projektion ohne feste Dogmatik.",
+      "evidence": [
+        {
+          "excerpt": "auf Malta immer wieder zu finden ist, ... die Spirale",
+          "event_ref": "RE-0019"
+        }
+      ],
+      "risk_notes": "Drift-Risiko: 'universell' wird als Beweis für gemeinsame Urreligion/Ursprung gelesen. MGK führt nur Anschlussfähigkeit, keine Herkunftsontologie.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: symbolic_minimal_anchor)"
+    },
+    {
+      "marker_id": "MARK-ARCHITECTURE-AS-BODYMAP-BIRTH-CHANNEL-001",
+      "type": "spatial",
+      "definition": "Architektur wird als Körperkarte gelesen (Womb/Becken/Brüste); Eintritt als 'Geburtskanal' aktiviert Wiedergeburts-Narrative.",
+      "evidence": [
+        {
+          "excerpt": "man betritt aber den Tempel dann sozusagen durch den Geburtskanal",
+          "event_ref": "RE-0020"
+        }
+      ],
+      "risk_notes": "Ontologischer Drift: aus Metapher wird Intentionsbehauptung ('so geplant, um X zu bewirken'). Als interpretative Körpermetapher/Imagination führen.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: architecture_as_body_map)"
+    },
+    {
+      "marker_id": "MARK-MUSEUMIZATION-VS-LIVED-FORCE-CONFLICT-001",
+      "type": "identity",
+      "definition": "Epistemischer Konflikt: institutionelle Musealisierung (UNESCO/Zäune) vs. Behauptung einer lebendigen Kraft erzeugt Gegenhaltung.",
+      "evidence": [
+        {
+          "excerpt": "Drumherum sind Zäune gebaut, da ist dann UNESCO drauf",
+          "event_ref": "RE-0021"
+        },
+        {
+          "excerpt": "Das sind nicht einfach nur alte Steine oder sowas. Das ist eine Kraft.",
+          "event_ref": "RE-0022"
+        }
+      ],
+      "risk_notes": "Drift-Risiko: Generalisierung in anti-akademische Ontologie ('Museum = Lüge'). MGK hält es als Spannungsmarker, ohne Partei zu ergreifen.",
+      "mgk_usage": "data/lenses/meta_patterns/ (Pattern: museumization_vs_lived_force)"
+    },
+    {
+      "marker_id": "MARK-POWER-OVERLAY-GEOMETRIZATION-001",
+      "type": "temporal",
+      "definition": "Temporal-layering: spätere Machtarchitektur (geometrisch/wehrhaft) wird als Überlagerung und Umcodierung älterer runder Formen gedeutet.",
+      "evidence": [
+        {
+          "excerpt": "baut ... Reichsbrettstadt. Mit Linien und Kanten und Winkeln",
+          "event_ref": "RE-0023"
+        }
+      ],
+      "risk_notes": "Explizite Drift-Warnung: Intentionalität ('männlicher Geist unterdrückt Göttin') ist Deutung/Analogie. MGK speichert die Deutung als Frame, nicht als historisches Motiv-Faktum.",
+      "mgk_usage": "data/lenses/meta_patterns/ (Pattern: power_overlay_recoding_of_sacred_sites)"
+    },
+    {
+      "marker_id": "MARK-GEO-ANOMALY-TO-RESOURCES-MYSTERY-001",
+      "type": "material",
+      "definition": "Material/Resourcen-Anomalie (Wasserknappheit) wird als Rätselverstärker genutzt und stützt Pilgerort- statt Siedlungsframe.",
+      "evidence": [
+        {
+          "excerpt": "Malta so gut wie kein Süßwasser besitzt",
+          "event_ref": "RE-0025"
+        }
+      ],
+      "risk_notes": "Nicht hydrologisch verifizieren oder ontologisieren; als Narrator-Argument (reasoning pattern) modellieren.",
+      "mgk_usage": "data/lenses/pre_narrative_resonance/ (Pattern: resource_anomaly_mystery_amplifier)"
+    }
+  ]
+}

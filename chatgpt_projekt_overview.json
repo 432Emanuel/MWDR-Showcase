@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "dokument_id": "chatgpt_projekt_overview",
+    "version": "1.0.0",
+    "last_updated": "2026-03-03",
+    "sprache": "de",
+    "basis_commit": "cf68732",
+    "basis_commit_message": "case study political narrative added"
+  },
+  "projektprofil": {
+    "projektname": "Menschheitsgedaechtniskarte",
+    "projektname_en": "Humanity Memory Map",
+    "kurzbeschreibung": "Modular aufgebautes Forschungsrepository zur strukturierten Dokumentation von Narrativen, Zeitzeugnissen und historischen Vergleichsfaellen.",
+    "repository_url": "https://github.com/432Emanuel/Menschheitsged-chtniskarte.git",
+    "lizenz": {
+      "code": "MIT License",
+      "content": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+    },
+    "zielsetzung": [
+      "Strukturierte Ablage von Forschungsdaten in JSON- und Markdown-Formaten.",
+      "Vergleich von Fallmustern ueber Module mit definierten Indexdateien und Schemata.",
+      "Nachvollziehbare Weiterentwicklung durch versionierte Dateien und Validierungswerkzeuge."
+    ]
+  },
+  "repository_snapshot": {
+    "dateitypen_statistik": {
+      "markdown_dateien": 148,
+      "json_dateien": 485,
+      "python_dateien": 7
+    },
+    "kernverzeichnisse": [
+      "zeitgeist_module/",
+      "family_module/",
+      "modules/",
+      "knowledge/",
+      "data/",
+      "shared/",
+      "src/"
+    ],
+    "kern_dateien": [
+      "README.md",
+      "research_questions.json",
+      "repo_structure_network.json",
+      "src/validate/validate_json.py",
+      ".github/workflows/validate.yml"
+    ]
+  },
+  "module_ueberblick": [
+    {
+      "modul": "Zeitgeist",
+      "pfad": "zeitgeist_module/",
+      "belege": [
+        "zeitgeist_module/Zeitgeist_index.json",
+        "zeitgeist_module/ZG-CB-contemporary-cases/index/ZG-CB_index.json",
+        "zeitgeist_module/ZG-CB-contemporary-cases/schema/ZG-CB_case.schema.json"
+      ],
+      "hinweis": "Fuenf thematische Kernmodule plus ein Bereich fuer zeitgenoessische Fallbeispiele."
+    },
+    {
+      "modul": "Familie",
+      "pfad": "family_module/",
+      "belege": [
+        "family_module/index.json",
+        "family_module/FM-001-family-core/module_meta.json"
+      ],
+      "hinweis": "Ein Kernmodul mit historischem und modernem Kontext."
+    },
+    {
+      "modul": "Narrative und historische Strukturen",
+      "pfad": "modules/",
+      "belege": [
+        "modules/gedaechtnistopologie/index.json",
+        "modules/mythos_und_verwaltung/index.json",
+        "modules/narrative_ecology/index.json",
+        "modules/imperium/index.json"
+      ],
+      "hinweis": "Mehrere Teilmodule; ein Teil der Inhalte liegt als Beispiel- oder Entwurfsdateien vor."
+    }
+  ],
+  "methodische_leitlinien": [
+    "Aussagen in diesem Dokument beziehen sich auf vorhandene Dateien und Verzeichnisse.",
+    "Interpretative oder normative Bewertungen werden vermieden.",
+    "Begriffe und Formulierungen bleiben fachlich und konsistent.",
+    "Technische Validierung und inhaltliche Interpretation werden getrennt dokumentiert."
+  ],
+  "use_cases": [
+    {
+      "id": "UC-01",
+      "titel": "Schema-basierte Erfassung zeitgenoessischer Fallbeispiele",
+      "beschreibung": "Neue Fallbeschreibungen koennen anhand eines festen Schemas strukturiert angelegt und verglichen werden.",
+      "relevante_pfade": [
+        "zeitgeist_module/ZG-CB-contemporary-cases/schema/ZG-CB_case.schema.json",
+        "zeitgeist_module/ZG-CB-contemporary-cases/schema/ZG-CB_case.example.json",
+        "zeitgeist_module/ZG-CB-contemporary-cases/cases/"
+      ],
+      "erwartetes_ergebnis": "Konsistent strukturierte Falldateien fuer qualitative oder vergleichende Auswertung."
+    },
+    {
+      "id": "UC-02",
+      "titel": "Formale JSON-Qualitaetspruefung",
+      "beschreibung": "Vor Commits oder Releases kann die Struktur von JSON-Dateien automatisiert geprueft werden.",
+      "relevante_pfade": [
+        "src/validate/validate_json.py",
+        "src/validate/schema_routing.json",
+        ".github/workflows/validate.yml"
+      ],
+      "erwartetes_ergebnis": "Fruehe Erkennung formaler Inkonsistenzen in der Datenstruktur."
+    },
+    {
+      "id": "UC-03",
+      "titel": "Reproduzierbare Strukturvisualisierung",
+      "beschreibung": "Bestehende Daten koennen in graphbasierte Darstellungen ueberfuehrt werden.",
+      "relevante_pfade": [
+        "interface_experiments/exp_003_machine_native_view/extract_machine_structure.py",
+        "interface_experiments/exp_003_machine_native_view/generate_machine_view.py",
+        "interface_experiments/exp_003_machine_native_view/output/machine_graph.json"
+      ],
+      "erwartetes_ergebnis": "Vergleichbare Visualisierungen fuer explorative Analyse und Dokumentation."
+    }
+  ],
+  "academic_readiness": {
+    "title": "Academic readiness",
+    "status": "teilweise vorbereitet",
+    "staerken": [
+      "Klare modulare Ablagestruktur mit Index- und Schema-Dateien.",
+      "Versionierung ueber Git und reproduzierbare Dateipfade.",
+      "Vorhandene technische Validierungswerkzeuge fuer JSON-Daten."
+    ],
+    "einschraenkungen": [
+      "Mehrere Inhalte sind als Entwurf, Beispiel oder experimenteller Stand gekennzeichnet.",
+      "Methodische Standards fuer Zitation und Evidenzbewertung sind nicht zentral in einer einzelnen Richtlinie gebuendelt."
+    ],
+    "naechste_schritte": [
+      "Einheitliche Metadatenfelder fuer Quellenbezug und Zitationsstatus definieren.",
+      "Abdeckungsmatrix erstellen: Modul zu Datengrundlage, Schema und Validierungsstatus.",
+      "Reproduzierbare Analysepfade pro Use Case in kurzen Protokollen dokumentieren."
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "SRC-DELPHI-0005",
+  "place_code": "DELPHI",
+  "created_at": "2026-02-23",
+  "bundle_ref_nums": [
+    7
+  ],
+  "title": "A Day in Delphi (Delfie Selfie)",
+  "author": "Marilyn Yung",
+  "date_or_year": "2019",
+  "medium": "Blog",
+  "url": "https://marilynyung.com/2019/06/28/just-takin-a-delfie-selfie/",
+  "source_type": "secondary_blog",
+  "reliability_tier": "B",
+  "epistemic_notes": "DP-002: treat metaphysical/causal claims as claims; encode as frames, not facts."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "SRC-MALTA-0008",
+  "place_code": "MALTA",
+  "created_at": "2026-02-23",
+  "bundle_ref_nums": [],
+  "title": "Archaeoacoustic Analysis (Feldexperimente)",
+  "author": "P. Debertolis, F. Coimbra",
+  "date_or_year": "2014",
+  "medium": "Forschungsbericht/Preprint (ResearchGate)",
+  "url": "https://www.researchgate.net/publication/282480957_Archaeoacoustic_Analysis_of_the_Hal_Saflieni_Hypogeum_in_Malta",
+  "source_type": "academic_paper",
+  "reliability_tier": "B",
+  "epistemic_notes": "DP-002: treat metaphysical/causal claims as claims; encode as frames, not facts."
+}

@@ -1,0 +1,161 @@
+{
+  "id": "SRC-ARUNACHALA-0018-RESONANCE",
+  "source_id": "SRC-ARUNACHALA-0018",
+  "place_focus": {
+    "primary_place": "Arunachala",
+    "place_type": "mountain/sacred_site",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "resonance_events": [
+    {
+      "event_id": "RE-0001",
+      "excerpt": "The vibrations envelop every soul to connect to the supreme.",
+      "layer": [
+        "R1",
+        "R5"
+      ],
+      "channel": [
+        "body"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0002",
+      "excerpt": "Life has two phases. One is before entering Arunachalam and the other phase begins after that.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "time"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0003",
+      "excerpt": "Dokumentiert die spürbaren Vibrationen des Ortes als \"Einhüllung der Seele\".",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "body"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0004",
+      "excerpt": "Beschreibt den Eintritt in das Land von Tiruvannamalai als eine Zäsur, die das Leben in zwei Phasen teilt.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "time"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0005",
+      "excerpt": "Thematisiert das Gefühl des \"Ankommens im Selbst\" beim Berühren des Bodens von Agni Lingam.",
+      "layer": [
+        "R4",
+        "R5"
+      ],
+      "channel": [
+        "symbolic"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "mythic_context"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0006",
+      "excerpt": "Avadhoota with Agni Lingam",
+      "layer": [
+        "R4",
+        "R5"
+      ],
+      "channel": [
+        "symbolic"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "mythic_context"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "title_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0007",
+      "excerpt": "Blog",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "medium_frame; DP-002: treat as reported/subjective unless measured."
+    }
+  ],
+  "aggregate_profile": {
+    "dominant_channels": [
+      "body",
+      "symbolic",
+      "time",
+      "cognition"
+    ],
+    "dominant_triggers": [
+      "other",
+      "mythic_context"
+    ],
+    "stability_notes": "Auto-extracted from bundle: mix of quotes, summaries and (where needed) bundle-level synthesis lines; DP-002 applied."
+  }
+}

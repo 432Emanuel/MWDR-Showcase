@@ -1,0 +1,16 @@
+{
+  "id": "SRC-DELPHI-0012",
+  "place_code": "DELPHI",
+  "created_at": "2026-02-23",
+  "bundle_ref_nums": [
+    12
+  ],
+  "title": "Experiencing 7,000 Years of History",
+  "author": "Barbara Weibel",
+  "date_or_year": "2018",
+  "medium": "Essay",
+  "url": "https://holeinthedonut.com/2018/07/15/greek-history-collette-tour-review/",
+  "source_type": "first_person_report",
+  "reliability_tier": "B",
+  "epistemic_notes": "DP-002: treat metaphysical/causal claims as claims; encode as frames, not facts."
+}

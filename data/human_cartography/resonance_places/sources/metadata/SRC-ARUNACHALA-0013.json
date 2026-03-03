@@ -1,0 +1,14 @@
+{
+  "id": "SRC-ARUNACHALA-0013",
+  "place_code": "ARUNACHALA",
+  "created_at": "2026-02-23",
+  "bundle_ref_nums": [],
+  "title": "The Monk on a Motorbike",
+  "author": "Werner",
+  "date_or_year": "2019",
+  "medium": "Podcast Interview",
+  "url": "https://podcasts.apple.com/us/podcast/the-monk-on-a-motorbike/id1457753294",
+  "source_type": "first_person_report",
+  "reliability_tier": "B",
+  "epistemic_notes": "DP-002: treat metaphysical/causal claims as claims; encode as frames, not facts."
+}

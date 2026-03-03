@@ -1,0 +1,127 @@
+{
+  "id": "SRC-DELPHI-0017-RESONANCE",
+  "source_id": "SRC-DELPHI-0017",
+  "place_focus": {
+    "primary_place": "Delphi",
+    "place_type": "archaeological_sanctuary/ruins",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "resonance_events": [
+    {
+      "event_id": "RE-0001",
+      "excerpt": "Moderne Berichte integrieren oft die wissenschaftliche Erkenntnis über Ethylen-Gase in ihr Erleben.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0002",
+      "excerpt": "3. Wissenschaftliche Mystik: Die geologische Erklärung der Dämpfe hat das Orakel nicht entzaubert, sondern ihm eine „materielle Evidenz“ verliehen, die moderne Besucher fasziniert.",
+      "layer": [
+        "R4",
+        "R5"
+      ],
+      "channel": [
+        "symbolic"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "sensory_smell",
+        "authority_projection"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0003",
+      "excerpt": "The Oracle of Delphi: Was she stoned?",
+      "layer": [
+        "R1",
+        "R4",
+        "R5"
+      ],
+      "channel": [
+        "symbolic",
+        "material"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "material_mass",
+        "authority_projection"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "title_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0004",
+      "excerpt": "Journal",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "medium_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0005",
+      "excerpt": "3",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; split; DP-002: treat as reported/subjective unless measured."
+    }
+  ],
+  "aggregate_profile": {
+    "dominant_channels": [
+      "cognition",
+      "symbolic",
+      "material"
+    ],
+    "dominant_triggers": [
+      "other",
+      "authority_projection",
+      "material_mass",
+      "sensory_smell"
+    ],
+    "stability_notes": "Auto-extracted from bundle: mix of quotes, summaries and (where needed) bundle-level synthesis lines; DP-002 applied."
+  }
+}

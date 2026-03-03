@@ -1,0 +1,14 @@
+{
+  "id": "SRC-MALTA-0002",
+  "place_code": "MALTA",
+  "created_at": "2026-02-23",
+  "bundle_ref_nums": [],
+  "title": "An archaeoacoustic study of the Hal Saflieni Hypogeum",
+  "author": "Diverse (u.a. I. Reznikoff, R. Till)",
+  "date_or_year": "2017",
+  "medium": "Fachartikel (Antiquity, Cambridge University Press)",
+  "url": "https://www.cambridge.org/core/journals/antiquity/article/an-archaeoacoustic-study-of-the-hal-saflieni-hypogeum-on-malta/2B530AEA46DEA5BF04D1C763725B3A34",
+  "source_type": "academic_paper",
+  "reliability_tier": "A",
+  "epistemic_notes": "DP-002: treat metaphysical/causal claims as claims; encode as frames, not facts."
+}

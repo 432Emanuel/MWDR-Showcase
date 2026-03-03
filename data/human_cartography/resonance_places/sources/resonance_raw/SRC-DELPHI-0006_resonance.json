@@ -1,0 +1,261 @@
+{
+  "id": "SRC-DELPHI-0006-RESONANCE",
+  "source_id": "SRC-DELPHI-0006",
+  "place_focus": {
+    "primary_place": "Delphi",
+    "place_type": "archaeological_sanctuary/ruins",
+    "geo_hints": [],
+    "cultural_matrix_mentions": []
+  },
+  "resonance_events": [
+    {
+      "event_id": "RE-0001",
+      "excerpt": "Delphi was a magical experience... I felt like I was somewhere special.",
+      "layer": [
+        "R2"
+      ],
+      "channel": [
+        "emotion"
+      ],
+      "valence": [
+        "positive"
+      ],
+      "intensity_0_5": 4,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0002",
+      "excerpt": "Pictures just don’t do it justice.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0003",
+      "excerpt": "I felt so privileged to see it… and the rest of the site, of course.",
+      "layer": [
+        "R1",
+        "R2"
+      ],
+      "channel": [
+        "emotion",
+        "space"
+      ],
+      "valence": [
+        "positive"
+      ],
+      "intensity_0_5": 4,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "quote; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0004",
+      "excerpt": "Subjektive Wahrnehmung einer „magischen“ Atmosphäre, die sich von anderen antiken Stätten wie Olympia abhebt.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0005",
+      "excerpt": "Erstaunen über die üppige Begrünung trotz der alpinen Gebirgslage.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0006",
+      "excerpt": "Kreative Aneignung: Da professionelle Guides zu teuer waren, erfand die Reisegruppe eigene Geschichten zu den Ruinen.",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0007",
+      "excerpt": "Wahrnehmung des „Navel“ (Omphalos) als physischer Beweis für die einstige Bedeutung des Ortes.",
+      "layer": [
+        "R4"
+      ],
+      "channel": [
+        "symbolic"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "place_center_symbol"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0008",
+      "excerpt": "Fokus auf die visuelle Überwältigung: Die Aussicht vom Amphitheater über das Tal wird als atemberaubend beschrieben.",
+      "layer": [
+        "R1"
+      ],
+      "channel": [
+        "body",
+        "space"
+      ],
+      "valence": [
+        "positive"
+      ],
+      "intensity_0_5": 4,
+      "triggers": [
+        "architectural_form"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "summary_point; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0009",
+      "excerpt": "Inmitten dieser vertikalen Dynamik fungiert der Omphalos als statisches Symbol. Besucher berichten von einem Gefühl des „Privilegs“, diesen Punkt zu sehen, den die antiken Griechen…",
+      "layer": [
+        "R4"
+      ],
+      "channel": [
+        "symbolic"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "place_center_symbol"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0010",
+      "excerpt": "4. Kontrollierte Sakralität: Die UNESCO-Rahmung schützt die physische Substanz, erzeugt aber durch Zugangskontrollen und Museumisierung eine Distanz, die oft durch rituelles Handeln (Baden in der…",
+      "layer": [],
+      "channel": [
+        "social"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "social_control_barrier"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "bundle_synthesis_line; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0011",
+      "excerpt": "Visiting Delphi – Center of the World",
+      "layer": [
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "authority_projection",
+        "place_center_symbol"
+      ],
+      "raw_vs_claim": "interpretive_claim",
+      "notes": "title_frame; DP-002: treat as reported/subjective unless measured."
+    },
+    {
+      "event_id": "RE-0012",
+      "excerpt": "Blog",
+      "layer": [
+        "R3"
+      ],
+      "channel": [
+        "cognition"
+      ],
+      "valence": [
+        "unknown"
+      ],
+      "intensity_0_5": 3,
+      "triggers": [
+        "other"
+      ],
+      "raw_vs_claim": "reported_effect",
+      "notes": "medium_frame; DP-002: treat as reported/subjective unless measured."
+    }
+  ],
+  "aggregate_profile": {
+    "dominant_channels": [
+      "cognition",
+      "emotion",
+      "space",
+      "symbolic",
+      "body"
+    ],
+    "dominant_triggers": [
+      "other",
+      "place_center_symbol",
+      "architectural_form",
+      "authority_projection",
+      "social_control_barrier"
+    ],
+    "stability_notes": "Auto-extracted from bundle: mix of quotes, summaries and (where needed) bundle-level synthesis lines; DP-002 applied."
+  }
+}
