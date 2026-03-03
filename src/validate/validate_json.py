@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-JSON Validator for Menschheitsgedaechtniskarte.
+JSON Validator for MWDR Showcase.
 
 Usage:
     python src/validate/validate_json.py
@@ -409,7 +409,7 @@ class JSONValidator:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Validate JSON files in Menschheitsgedaechtniskarte"
+        description="Validate JSON files in MWDR Showcase"
     )
     parser.add_argument(
         "--path",

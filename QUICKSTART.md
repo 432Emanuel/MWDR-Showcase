@@ -13,7 +13,7 @@ Get MWDR Showcase running in under 10 minutes.
 ### 1. Clone or Download
 
 ```bash
-git clone https://github.com/[USERNAME]/MWDR-Showcase.git
+git clone https://github.com/432Emanuel/MWDR-Showcase.git
 cd MWDR-Showcase
 ```
 

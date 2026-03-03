@@ -12,18 +12,18 @@ This document explains how to cite the MWDR Showcase repository and its contents
   author = {{MWDR Contributors}},
   year = {2026},
   version = {0.2.0},
-  url = {https://github.com/[USERNAME]/MWDR-Showcase},
+  url = {https://github.com/432Emanuel/MWDR-Showcase},
   license = {MIT License / CC BY 4.0}
 }
 ```
 
 ### APA Style
 
-MWDR Contributors. (2026). *MWDR Showcase: Modular Research Data Repository* (Version 0.2.0) [Computer software]. GitHub. https://github.com/[USERNAME]/MWDR-Showcase
+MWDR Contributors. (2026). *MWDR Showcase: Modular Research Data Repository* (Version 0.2.0) [Computer software]. GitHub. https://github.com/432Emanuel/MWDR-Showcase
 
 ### Chicago Style
 
-MWDR Contributors. 2026. "MWDR Showcase: Modular Research Data Repository." Version 0.2.0. GitHub. https://github.com/[USERNAME]/MWDR-Showcase.
+MWDR Contributors. 2026. "MWDR Showcase: Modular Research Data Repository." Version 0.2.0. GitHub. https://github.com/432Emanuel/MWDR-Showcase.
 
 ## Document Citation
 
@@ -37,7 +37,7 @@ When citing specific documents from the demo module:
   author = {{MWDR Contributors}},
   year = {2026},
   howpublished = {MWDR Showcase Repository},
-  url = {https://github.com/[USERNAME]/MWDR-Showcase/blob/main/modules/demo_module/documents/MAP-WORLD-PTOLEMY-0150.json}
+  url = {https://github.com/432Emanuel/MWDR-Showcase/blob/main/modules/demo_module/documents/MAP-WORLD-PTOLEMY-0150.json}
 }
 ```
 
@@ -76,7 +76,7 @@ The data documents, schemas, and documentation are licensed under CC BY 4.0. You
 When using data or documents from this repository, include:
 
 ```
-Source: MWDR Showcase (2026). https://github.com/[USERNAME]/MWDR-Showcase
+Source: MWDR Showcase (2026). https://github.com/432Emanuel/MWDR-Showcase
 Retrieved: [DATE]
 License: CC BY 4.0
 ```

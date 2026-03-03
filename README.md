@@ -122,6 +122,6 @@ File patterns are mapped to schemas in `src/validate/schema_routing.json`:
 
 ## Repository
 
-- **URL**: https://github.com/[USERNAME]/MWDR-Showcase (placeholder)
+- **URL**: https://github.com/432Emanuel/MWDR-Showcase
 - **Version**: 0.2.0
 - **Last Updated**: 2026-03-03
